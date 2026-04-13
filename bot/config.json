@@ -1,12 +1,12 @@
 {
   "min_discount_percent": 15,
-  "max_deals": 80,
+  "max_deals": 120,
   "price_history_file": "price_history.json",
   "output_file": "../js/deals.js",
   "picks": [],
   "category_keywords": {
     "clothing": ["jersey", "jacket", "tights", "shorts", "bib", "gloves", "socks", "shoe", "shoes", "vest", "gilet", "cap", "arm warmer", "leg warmer", "overshoe", "rainjacket", "fietsshirt", "fietsjack", "fietsbroek", "wielershirt", "wielerjack", "broek", "shirt", "maillot", "trui", "tee", "pants", "trousers", "base layer", "rain jacket", "softshell", "top", "tricot", "regenjas", "handschoenen", "schoenen", "short", "trikot"],
-    "tools": ["chain tool", "tool", "stand", "repair", "cleaning", "lube", "torque", "brush", "degreaser", "muc-off", "maintenance"],
+    "tools": ["chain tool", "tool", "stand", "repair", "cleaning", "lube", "torque", "brush", "degreaser", "muc-off", "maintenance", "wrench", "reiniger", "smeermiddel", "kettingpons", "borstel", "olie", "spray", "cleaner", "wax", "lubricant", "grease"],
     "parts": ["groupset", "derailleur", "cassette", "crankset", "brake", "shifter", "bottom bracket", "headset", "hub", "rim", "spoke", "tyre", "tire", "rotor", "caliper", "chain ring", "chainring", "chain", "disc pad", "disc pads", "sprocket", "pedal", "pedalen", "velglint", "kettingverbinder", "kettingschakel", "stuur"],
     "accessories": ["helmet", "helm", "light", "lock", "computer", "gps", "bottle", "cage", "saddle", "seatpost", "handlebar", "stem", "trainer", "pump", "bag", "rack", "bell", "basket", "fender", "mudguard", "grip", "rugzak", "beenbeschermers"],
     "bikes": ["road bike", "mountainbike", "mountain bike", "gravel bike", "e-bike", "racefiets", "stadsfiets", "frameset", "frame", "complete bike", "e-speeder", "honzo", "kahuna", "dew-e", "macina", "speedster", "pathlite", "endeavour", "scott spark", "scott genius", "scott contessa", "scott scale", "kona", "ortler", "kalkhoff", "ktm"]
@@ -80,6 +80,32 @@
         "url": "https://www.lordgunbicycles.co.uk/offers",
         "max_pages": 3,
         "gbp_to_eur": 1.16
+      },
+      {
+        "name": "Hollandbikeshop tools & maintenance",
+        "type": "hollandbikeshop",
+        "enabled": true,
+        "urls": [
+          "https://hollandbikeshop.com/fietsgereedschap-fietsonderhoud/fietsgereedschap/",
+          "https://hollandbikeshop.com/fietsgereedschap-fietsonderhoud/fiets-schoonmaakmiddelen/",
+          "https://hollandbikeshop.com/fietsgereedschap-fietsonderhoud/smeermiddel/"
+        ]
+      },
+      {
+        "name": "Bike-Mailorder tools",
+        "type": "bike-mailorder",
+        "enabled": true,
+        "url": "https://www.bike-mailorder.com/nl-nl/collections/gereedschap-onderhoud",
+        "max_pages": 3
+      },
+      {
+        "name": "Bike-Components tools",
+        "type": "bike-components",
+        "enabled": true,
+        "urls": [
+          "https://www.bike-components.de/en/tools-maintenance/general-tools/",
+          "https://www.bike-components.de/en/tools-maintenance/maintenance-products/"
+        ]
       }
     ]
   }
