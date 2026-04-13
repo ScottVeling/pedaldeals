@@ -408,14 +408,10 @@ def fetch_futurumshop(source_config, config):
                 continue
 
             try:
-                price_was = float(
-                    former_el.get_text(strip=True)
-                    .replace(".", "").replace(",", ".").strip()
-                )
-                price_now = float(
-                    current_el.get_text(strip=True)
-                    .replace(".", "").replace(",", ".").strip()
-                )
+                was_text = former_el.get_text(strip=True).replace(",", ".").strip()
+                now_text = current_el.get_text(strip=True).replace(",", ".").strip()
+                price_was = float(was_text)
+                price_now = float(now_text)
             except (ValueError, AttributeError):
                 continue
 
