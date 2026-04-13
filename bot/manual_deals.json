@@ -1,0 +1,20 @@
+[
+  {
+    "title": "Continental GP5000 S TR 25mm — set of 2",
+    "category": "parts",
+    "price_now": 69,
+    "price_was": 109,
+    "store": "Bike24",
+    "url": "https://www.bike24.com",
+    "pick": true
+  },
+  {
+    "title": "Wahoo KICKR Core smart trainer",
+    "category": "accessories",
+    "price_now": 549,
+    "price_was": 799,
+    "store": "Bike-Discount",
+    "url": "https://www.bike-discount.de",
+    "pick": true
+  }
+]

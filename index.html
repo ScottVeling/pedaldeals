@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Cycling deals from shops across Europe. We dig through the sales so you can spend more time riding.">
+  <meta property="og:title" content="PedalDeals — cheap bike stuff, updated daily">
+  <meta property="og:description" content="We check Mantel, Bike24, Canyon, Wiggle and more. If it's a good cycling deal, it ends up here.">
+  <meta property="og:type" content="website">
+  <title>PedalDeals - cycling deals, no BS</title>
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700&family=Libre+Baskerville:ital@0;1&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <header class="header">
+    <div class="wrap">
+      <a href="/" class="logo">pedaldeals</a>
+      <nav>
+        <a href="#deals">deals</a>
+        <a href="#about">how it works</a>
+      </nav>
+    </div>
+  </header>
+
+  <section class="intro">
+    <div class="wrap">
+      <h1>Cheap bike stuff.<br>Updated when we find it.</h1>
+      <p class="subtitle">We check Mantel, Bike24, Canyon, Wiggle and a bunch of other shops so you don't have to open 15 tabs. If it's a good deal, it's here.</p>
+      <p class="updated">last checked: <strong>today, 13 apr</strong> &middot; 18 deals live</p>
+      <div class="search-wrap">
+        <input type="text" id="searchInput" placeholder="type to filter... shimano, helmet, whatever">
+      </div>
+    </div>
+  </section>
+
+  <div class="filters-bar" id="deals">
+    <div class="wrap filters-inner">
+      <div class="cats">
+        <button class="cat active" data-category="all">everything</button>
+        <button class="cat" data-category="bikes">bikes</button>
+        <button class="cat" data-category="parts">parts</button>
+        <button class="cat" data-category="accessories">accessories</button>
+        <button class="cat" data-category="clothing">clothing</button>
+        <button class="cat" data-category="tools">tools & maintenance</button>
+      </div>
+      <div class="sort">
+        <select id="sortSelect">
+          <option value="discount">biggest savings first</option>
+          <option value="price-low">cheapest first</option>
+          <option value="price-high">most expensive first</option>
+          <option value="newest">newest first</option>
+        </select>
+      </div>
+    </div>
+  </div>
+
+  <!-- ad top -->
+  <div class="ad-banner wrap">
+    <div class="ad-placeholder">ad</div>
+  </div>
+
+  <main class="deals">
+    <div class="wrap">
+      <p class="count" id="dealCount-wrap"><span id="dealCount">0</span> deals right now</p>
+      <div class="grid" id="dealsGrid"></div>
+      <div class="empty" id="noResults" style="display:none;">
+        <p>Nothing matches that. Try something else?</p>
+      </div>
+    </div>
+  </main>
+
+  <!-- ad bottom -->
+  <div class="ad-banner wrap">
+    <div class="ad-placeholder">ad</div>
+  </div>
+
+  <!-- About -->
+  <section class="about" id="about">
+    <div class="wrap">
+      <h2>How does this work?</h2>
+      <p>Hey, I'm Velin. I ride bikes in the Netherlands and I got tired of manually checking 10+ shops every day for price drops. So I wrote a bot that does it for me — it crawls through Mantel, Bike24, Canyon, Wiggle, Futurumshop and a bunch of other stores, compares current prices to what they used to cost, and flags anything with a solid discount.</p>
+      <p>I still go through the results myself before anything ends up on the site. The bot finds the deals, but I decide what's actually worth showing. Not everything that's "on sale" is a good deal — some shops just inflate the original price. If it's here, it's because I'd genuinely consider buying it.</p>
+      <p>If the bot missed something or you know of a deal, feel free to reach out.</p>
+      <p class="disclosure">Transparency: this site shows a few small ads to cover hosting costs. I don't get paid by any of these shops, and none of the links are affiliate links.</p>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="wrap">
+      <div class="footer-top">
+        <div class="footer-col">
+          <strong>pedaldeals</strong>
+          <p>Cycling deals from across Europe.<br>Run from the Netherlands.</p>
+        </div>
+        <div class="footer-col">
+          <strong>browse</strong>
+          <a href="#deals">all deals</a>
+          <a href="#" onclick="document.querySelector('[data-category=bikes]').click();return false;">bikes</a>
+          <a href="#" onclick="document.querySelector('[data-category=parts]').click();return false;">parts</a>
+          <a href="#" onclick="document.querySelector('[data-category=clothing]').click();return false;">clothing</a>
+        </div>
+        <div class="footer-col">
+          <strong>site</strong>
+          <a href="#about">about</a>
+          <a href="#about">how it works</a>
+          <a href="#">privacy policy</a>
+        </div>
+        <div class="footer-col">
+          <strong>other</strong>
+          <a href="#">rss feed</a>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>pedaldeals &middot; prices can change, always double-check at the shop &middot; no affiliate links</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/deals.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>

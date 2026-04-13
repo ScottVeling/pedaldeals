@@ -1,0 +1,40 @@
+{
+  "min_discount_percent": 15,
+  "max_deals": 40,
+  "price_history_file": "price_history.json",
+  "output_file": "../js/deals.js",
+  "picks": [],
+  "category_keywords": {
+    "bikes": ["bike", "fiets", "road bike", "mountainbike", "gravel", "e-bike", "racefiets", "frameset", "frame"],
+    "parts": ["groupset", "derailleur", "cassette", "chain", "crankset", "brake", "shifter", "bottom bracket", "headset", "hub", "rim", "spoke", "tyre", "tire", "tube", "rotor", "caliper"],
+    "accessories": ["helmet", "light", "lock", "computer", "gps", "bottle", "cage", "saddle", "seatpost", "handlebar", "stem", "pedal", "trainer", "pump", "bag", "rack"],
+    "clothing": ["jersey", "jacket", "tights", "shorts", "bib", "gloves", "socks", "shoe", "vest", "gilet", "cap", "arm warmer", "leg warmer", "overshoe", "rainjacket"],
+    "tools": ["tool", "stand", "repair", "cleaning", "lube", "chain tool", "torque", "pump", "brush", "degreaser", "muc-off", "maintenance"]
+  },
+  "feeds": {
+    "awin_feeds": [
+      {
+        "name": "example-shop",
+        "enabled": false,
+        "url": "https://productdata.awin.com/datafeed/download/apikey/YOUR_KEY/language/en/fid/YOUR_FEED_ID/columns/aw_deep_link,product_name,search_price,rrp_price,merchant_name,merchant_category/format/csv/delimiter/%2C/compression/zip/",
+        "notes": "Sign up at awin.com, join cycling shop programs, get feed URLs from the interface"
+      }
+    ],
+    "rss_feeds": [
+      {
+        "name": "bike24-outlet",
+        "enabled": false,
+        "url": "",
+        "notes": "Add RSS/Atom feed URL if the shop provides one"
+      }
+    ],
+    "manual_sources": [
+      {
+        "name": "manual",
+        "enabled": true,
+        "file": "manual_deals.json",
+        "notes": "Deals you add by hand — always works, no external dependency"
+      }
+    ]
+  }
+}
