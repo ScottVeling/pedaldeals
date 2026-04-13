@@ -457,6 +457,261 @@ def fetch_futurumshop(source_config, config):
 
 
 # ---------------------------------------------------------------------------
+# Source: Rose Bikes scraper
+# ---------------------------------------------------------------------------
+def fetch_rose_bikes(source_config, config):
+    if not requests or not BeautifulSoup:
+        print("  skipping rose bikes (missing deps)")
+        return []
+
+    base_url = source_config.get("url", "https://www.rosebikes.com/sale")
+    headers = {
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
+    }
+    max_pages = source_config.get("max_pages", 5)
+    deals = []
+
+    for page in range(1, max_pages + 1):
+        print(f"  page {page}...")
+        page_url = f"{base_url}?page={page}" if page > 1 else base_url
+        try:
+            resp = requests.get(page_url, headers=headers, timeout=30)
+            resp.raise_for_status()
+        except Exception as e:
+            print(f"  error on page {page}: {e}")
+            break
+
+        soup = BeautifulSoup(resp.text, "html.parser")
+        cards = soup.select(".catalog-product-tile")
+        if not cards:
+            break
+
+        for card in cards:
+            title_el = card.select_one(".catalog-product-tile__title")
+            if not title_el:
+                continue
+            title = " ".join(title_el.get_text().split())
+
+            link_el = card.select_one(".catalog-product-tile__link")
+            link = link_el["href"] if link_el and link_el.get("href") else "#"
+            if link.startswith("/"):
+                link = "https://www.rosebikes.com" + link
+
+            img_el = card.select_one("img")
+            img = img_el.get("src", "") if img_el else ""
+
+            old_el = card.select_one(".product-tile-price__old-value")
+            cur_el = card.select_one(".product-tile-price__current-value")
+            if not old_el or not cur_el:
+                continue
+
+            try:
+                price_was = float(
+                    old_el.get_text(strip=True)
+                    .replace("€", "").replace(",", "").strip()
+                )
+                price_now = float(
+                    cur_el.get_text(strip=True)
+                    .replace("€", "").replace(",", "").strip()
+                )
+            except (ValueError, AttributeError):
+                continue
+
+            if price_was <= 0 or price_now <= 0 or price_now >= price_was:
+                continue
+
+            deals.append({
+                "title": title,
+                "category": guess_category(title, config),
+                "price_now": price_now,
+                "price_was": price_was,
+                "store": "Rose Bikes",
+                "url": link,
+                "img": img,
+                "pick": False,
+            })
+
+    return deals
+
+
+# ---------------------------------------------------------------------------
+# Source: Bikester.nl scraper (Shopify)
+# ---------------------------------------------------------------------------
+def parse_bikester_price(el):
+    """Parse Bikester price like '€2.59900' or '€15999' into float.
+    The last 2 digits are cents, dots are thousands separators."""
+    if not el:
+        return 0
+    text = el.get_text(strip=True).replace("€", "").replace(" ", "")
+    # remove thousands separator dots
+    text = text.replace(".", "")
+    if not text:
+        return 0
+    try:
+        # last 2 digits are cents
+        val = int(text)
+        return val / 100.0
+    except ValueError:
+        return 0
+
+
+def fetch_bikester(source_config, config):
+    if not requests or not BeautifulSoup:
+        print("  skipping bikester (missing deps)")
+        return []
+
+    base_url = source_config.get("url", "https://www.bikester.nl/sale/")
+    headers = {
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
+    }
+    max_pages = source_config.get("max_pages", 5)
+    deals = []
+
+    for page in range(1, max_pages + 1):
+        print(f"  page {page}...")
+        page_url = f"{base_url}?page={page}" if page > 1 else base_url
+        try:
+            resp = requests.get(page_url, headers=headers, timeout=30,
+                                allow_redirects=True)
+            resp.raise_for_status()
+        except Exception as e:
+            print(f"  error on page {page}: {e}")
+            break
+
+        soup = BeautifulSoup(resp.text, "html.parser")
+        cards = soup.select("product-card")
+        if not cards:
+            break
+
+        for card in cards:
+            link_el = card.select_one("a.js-prod-link")
+            if not link_el:
+                continue
+            title = link_el.get("aria-label", "").strip()
+            if not title:
+                continue
+
+            link = link_el.get("href", "#")
+            if link.startswith("/"):
+                link = "https://www.bikester.nl" + link
+
+            img_el = card.select_one("img")
+            img = ""
+            if img_el:
+                img = img_el.get("src", "")
+                if img.startswith("//"):
+                    img = "https:" + img
+
+            cur_el = card.select_one(".price__current .js-value")
+            was_el = card.select_one(".price__was .js-value")
+
+            price_now = parse_bikester_price(cur_el)
+            price_was = parse_bikester_price(was_el)
+
+            if price_was <= 0 or price_now <= 0 or price_now >= price_was:
+                continue
+
+            deals.append({
+                "title": title,
+                "category": guess_category(title, config),
+                "price_now": price_now,
+                "price_was": price_was,
+                "store": "Bikester",
+                "url": link,
+                "img": img,
+                "pick": False,
+            })
+
+    return deals
+
+
+# ---------------------------------------------------------------------------
+# Source: Lordgun scraper (GBP, calculates original from discount %)
+# ---------------------------------------------------------------------------
+def fetch_lordgun(source_config, config):
+    if not requests or not BeautifulSoup:
+        print("  skipping lordgun (missing deps)")
+        return []
+
+    base_url = source_config.get("url", "https://www.lordgunbicycles.co.uk/offers")
+    headers = {
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
+    }
+    max_pages = source_config.get("max_pages", 3)
+    gbp_to_eur = source_config.get("gbp_to_eur", 1.16)
+    deals = []
+
+    for page in range(1, max_pages + 1):
+        print(f"  page {page}...")
+        page_url = f"{base_url}?page={page}" if page > 1 else base_url
+        try:
+            resp = requests.get(page_url, headers=headers, timeout=30,
+                                allow_redirects=True)
+            resp.raise_for_status()
+        except Exception as e:
+            print(f"  error on page {page}: {e}")
+            break
+
+        soup = BeautifulSoup(resp.text, "html.parser")
+        cards = soup.select("article.product")
+        if not cards:
+            break
+
+        for card in cards:
+            brand_el = card.select_one(".product__brand")
+            title_el = card.select_one(".article__title")
+            if not title_el:
+                continue
+            brand = brand_el.get_text(strip=True) if brand_el else ""
+            name = title_el.get_text(strip=True)
+            title = f"{brand} {name}".strip() if brand else name
+
+            link_el = card.select_one("a.article__link")
+            link = link_el["href"] if link_el and link_el.get("href") else "#"
+            if link.startswith("/"):
+                link = "https://www.lordgunbicycles.co.uk" + link
+
+            img_el = card.select_one("img.article__image")
+            img = ""
+            if img_el:
+                img = img_el.get("data-src", "") or img_el.get("src", "")
+
+            price_el = card.select_one(".product__price")
+            disc_el = card.select_one(".product__price--discount")
+            if not price_el or not disc_el:
+                continue
+
+            try:
+                price_text = (price_el.get_text(strip=True)
+                              .lower().replace("from", "").replace("£", "")
+                              .replace(",", "").strip())
+                price_gbp = float(price_text)
+                disc_text = disc_el.get_text(strip=True).replace("%", "").replace("-", "").strip()
+                disc_pct = float(disc_text)
+            except (ValueError, AttributeError):
+                continue
+
+            if disc_pct <= 0 or price_gbp <= 0:
+                continue
+
+            price_now = round(price_gbp * gbp_to_eur, 2)
+            price_was = round(price_now / (1 - disc_pct / 100), 2)
+
+            deals.append({
+                "title": title,
+                "category": guess_category(title, config),
+                "price_now": price_now,
+                "price_was": price_was,
+                "store": "Lordgun",
+                "url": link,
+                "img": img,
+                "pick": False,
+            })
+
+    return deals
+
+
+# ---------------------------------------------------------------------------
 # Pipeline
 # ---------------------------------------------------------------------------
 def fetch_all_deals(config):
@@ -491,6 +746,9 @@ def fetch_all_deals(config):
         "bike-discount": fetch_bike_discount,
         "mantel": fetch_mantel,
         "futurumshop": fetch_futurumshop,
+        "rose-bikes": fetch_rose_bikes,
+        "bikester": fetch_bikester,
+        "lordgun": fetch_lordgun,
     }
     for src in config["feeds"].get("scrapers", []):
         if src.get("enabled"):

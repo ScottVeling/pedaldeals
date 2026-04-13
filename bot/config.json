@@ -1,6 +1,6 @@
 {
   "min_discount_percent": 15,
-  "max_deals": 40,
+  "max_deals": 80,
   "price_history_file": "price_history.json",
   "output_file": "../js/deals.js",
   "picks": [],
@@ -58,6 +58,28 @@
         "enabled": true,
         "url": "https://www.futurumshop.nl/sale/",
         "max_pages": 5
+      },
+      {
+        "name": "Rose Bikes sale",
+        "type": "rose-bikes",
+        "enabled": true,
+        "url": "https://www.rosebikes.com/sale",
+        "max_pages": 5
+      },
+      {
+        "name": "Bikester.nl sale",
+        "type": "bikester",
+        "enabled": true,
+        "url": "https://www.bikester.nl/sale/",
+        "max_pages": 5
+      },
+      {
+        "name": "Lordgun offers",
+        "type": "lordgun",
+        "enabled": true,
+        "url": "https://www.lordgunbicycles.co.uk/offers",
+        "max_pages": 3,
+        "gbp_to_eur": 1.16
       }
     ]
   }
