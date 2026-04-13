@@ -5,11 +5,11 @@
   "output_file": "../js/deals.js",
   "picks": [],
   "category_keywords": {
-    "clothing": ["jersey", "jacket", "tights", "shorts", "bib", "gloves", "socks", "shoe", "shoes", "vest", "gilet", "cap", "arm warmer", "leg warmer", "overshoe", "rainjacket", "fietsshirt", "fietsjack", "fietsbroek", "wielershirt", "wielerjack", "broek", "shirt", "maillot", "trui"],
-    "tools": ["tool", "stand", "repair", "cleaning", "lube", "chain tool", "torque", "brush", "degreaser", "muc-off", "maintenance"],
-    "parts": ["groupset", "derailleur", "cassette", "crankset", "brake", "shifter", "bottom bracket", "headset", "hub", "rim", "spoke", "tyre", "tire", "tube", "rotor", "caliper", "chain ring", "chainring"],
-    "accessories": ["helmet", "light", "lock", "computer", "gps", "bottle", "cage", "saddle", "seatpost", "handlebar", "stem", "pedal", "trainer", "pump", "bag", "rack"],
-    "bikes": ["road bike", "mountainbike", "mountain bike", "gravel bike", "e-bike", "racefiets", "stadsfiets", "frameset", "frame", "complete bike"]
+    "clothing": ["jersey", "jacket", "tights", "shorts", "bib", "gloves", "socks", "shoe", "shoes", "vest", "gilet", "cap", "arm warmer", "leg warmer", "overshoe", "rainjacket", "fietsshirt", "fietsjack", "fietsbroek", "wielershirt", "wielerjack", "broek", "shirt", "maillot", "trui", "tee", "pants", "trousers", "base layer", "rain jacket", "softshell", "top", "tricot", "regenjas", "handschoenen", "schoenen", "short", "trikot"],
+    "tools": ["chain tool", "tool", "stand", "repair", "cleaning", "lube", "torque", "brush", "degreaser", "muc-off", "maintenance"],
+    "parts": ["groupset", "derailleur", "cassette", "crankset", "brake", "shifter", "bottom bracket", "headset", "hub", "rim", "spoke", "tyre", "tire", "rotor", "caliper", "chain ring", "chainring", "chain", "disc pad", "disc pads", "sprocket", "pedal", "pedalen", "velglint", "kettingverbinder", "kettingschakel", "stuur"],
+    "accessories": ["helmet", "helm", "light", "lock", "computer", "gps", "bottle", "cage", "saddle", "seatpost", "handlebar", "stem", "trainer", "pump", "bag", "rack", "bell", "basket", "fender", "mudguard", "grip", "rugzak", "beenbeschermers"],
+    "bikes": ["road bike", "mountainbike", "mountain bike", "gravel bike", "e-bike", "racefiets", "stadsfiets", "frameset", "frame", "complete bike", "e-speeder", "honzo", "kahuna", "dew-e", "macina", "speedster", "pathlite", "endeavour", "scott spark", "scott genius", "scott contessa", "scott scale", "kona", "ortler", "kalkhoff", "ktm"]
   },
   "feeds": {
     "awin_feeds": [
