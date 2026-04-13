@@ -211,7 +211,7 @@ var DEALS = [
   {
     "id": 20,
     "title": "Craft ADV Bike SubZ 2 Fietsjack Groen/Zwart Heren",
-    "category": "bikes",
+    "category": "clothing",
     "priceNow": 71,
     "priceWas": 140,
     "store": "Futurumshop",
@@ -233,7 +233,7 @@ var DEALS = [
   {
     "id": 22,
     "title": "Schwalbe One TLE Road Bike Tyre",
-    "category": "bikes",
+    "category": "parts",
     "priceNow": 32,
     "priceWas": 62,
     "store": "Mantel",
@@ -244,7 +244,7 @@ var DEALS = [
   {
     "id": 23,
     "title": "Craft CORE Bike Essence Wool Fietsshirt Lange Mouwen Roze Dames",
-    "category": "bikes",
+    "category": "clothing",
     "priceNow": 53,
     "priceWas": 100,
     "store": "Futurumshop",
@@ -288,7 +288,7 @@ var DEALS = [
   {
     "id": 27,
     "title": "FYTS SNLST Thermo Fietsshirt Lange Mouwen Donkerrood Dames",
-    "category": "bikes",
+    "category": "clothing",
     "priceNow": 65,
     "priceWas": 120,
     "store": "Futurumshop",
@@ -332,7 +332,7 @@ var DEALS = [
   {
     "id": 31,
     "title": "Giro Cielo MIPS Road Bike Helmet",
-    "category": "bikes",
+    "category": "accessories",
     "priceNow": 110,
     "priceWas": 200,
     "store": "Mantel",
@@ -409,7 +409,7 @@ var DEALS = [
   {
     "id": 38,
     "title": "Sidi Prima Road Cycling Shoes",
-    "category": "parts",
+    "category": "clothing",
     "priceNow": 100,
     "priceWas": 169,
     "store": "Mantel",

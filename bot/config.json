@@ -5,11 +5,11 @@
   "output_file": "../js/deals.js",
   "picks": [],
   "category_keywords": {
-    "bikes": ["bike", "fiets", "road bike", "mountainbike", "gravel", "e-bike", "racefiets", "frameset", "frame"],
-    "parts": ["groupset", "derailleur", "cassette", "chain", "crankset", "brake", "shifter", "bottom bracket", "headset", "hub", "rim", "spoke", "tyre", "tire", "tube", "rotor", "caliper"],
+    "clothing": ["jersey", "jacket", "tights", "shorts", "bib", "gloves", "socks", "shoe", "shoes", "vest", "gilet", "cap", "arm warmer", "leg warmer", "overshoe", "rainjacket", "fietsshirt", "fietsjack", "fietsbroek", "wielershirt", "wielerjack", "broek", "shirt", "maillot", "trui"],
+    "tools": ["tool", "stand", "repair", "cleaning", "lube", "chain tool", "torque", "brush", "degreaser", "muc-off", "maintenance"],
+    "parts": ["groupset", "derailleur", "cassette", "crankset", "brake", "shifter", "bottom bracket", "headset", "hub", "rim", "spoke", "tyre", "tire", "tube", "rotor", "caliper", "chain ring", "chainring"],
     "accessories": ["helmet", "light", "lock", "computer", "gps", "bottle", "cage", "saddle", "seatpost", "handlebar", "stem", "pedal", "trainer", "pump", "bag", "rack"],
-    "clothing": ["jersey", "jacket", "tights", "shorts", "bib", "gloves", "socks", "shoe", "vest", "gilet", "cap", "arm warmer", "leg warmer", "overshoe", "rainjacket"],
-    "tools": ["tool", "stand", "repair", "cleaning", "lube", "chain tool", "torque", "pump", "brush", "degreaser", "muc-off", "maintenance"]
+    "bikes": ["road bike", "mountainbike", "mountain bike", "gravel bike", "e-bike", "racefiets", "stadsfiets", "frameset", "frame", "complete bike"]
   },
   "feeds": {
     "awin_feeds": [

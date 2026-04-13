@@ -61,11 +61,18 @@ def save_price_history(config, history):
         json.dump(history, f, indent=2, ensure_ascii=False)
 
 
+import re
+
 def guess_category(title, config):
     title_lower = title.lower()
-    for cat, keywords in config["category_keywords"].items():
+    # check categories in priority order: clothing first (most specific),
+    # then tools, parts, accessories, bikes last (too many false positives)
+    priority = ["clothing", "tools", "parts", "accessories", "bikes"]
+    for cat in priority:
+        keywords = config["category_keywords"].get(cat, [])
         for kw in keywords:
-            if kw in title_lower:
+            # use word boundary matching to avoid substring false positives
+            if re.search(r'\b' + re.escape(kw) + r'\b', title_lower):
                 return cat
     return "accessories"
 
