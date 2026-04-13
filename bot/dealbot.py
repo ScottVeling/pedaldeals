@@ -93,6 +93,7 @@ def fetch_manual(source_config):
             "price_was": float(item["price_was"]),
             "store": item["store"],
             "url": item.get("url", "#"),
+            "img": item.get("img", ""),
             "pick": item.get("pick", False),
         })
     return deals
@@ -315,6 +316,13 @@ def fetch_mantel(source_config, config):
             elif link.startswith("/"):
                 link = "https://www.mantel.com" + link
 
+            img_el = card.select_one("img")
+            img = ""
+            if img_el:
+                img = img_el.get("src", "")
+                if img.startswith("//"):
+                    img = "https:" + img
+
             rrp_el = card.select_one(".product-card-price-recommended span")
             now_el = card.select_one(".product-card-price-current")
 
@@ -345,6 +353,7 @@ def fetch_mantel(source_config, config):
                 "price_was": price_was,
                 "store": "Mantel",
                 "url": link,
+                "img": img,
                 "pick": False,
             })
 
@@ -402,6 +411,14 @@ def fetch_futurumshop(source_config, config):
             elif link.startswith("/"):
                 link = "https://www.futurumshop.nl" + link
 
+            # image is in a sibling element before productContent
+            img = ""
+            parent = card.find_parent()
+            if parent:
+                img_el = parent.select_one("img")
+                if img_el:
+                    img = img_el.get("src", "")
+
             former_el = card.select_one(".js_former-price")
             current_el = card.select_one(".js_current-price")
             if not former_el or not current_el:
@@ -425,6 +442,7 @@ def fetch_futurumshop(source_config, config):
                 "price_was": price_was,
                 "store": "Futurumshop",
                 "url": link,
+                "img": img,
                 "pick": False,
             })
 
@@ -532,6 +550,8 @@ def write_deals_js(deals, config):
             "storeUrl": d["url"],
             "added": today,
         }
+        if d.get("img"):
+            entry["img"] = d["img"]
         if is_pick:
             entry["pick"] = True
         entries.append(entry)

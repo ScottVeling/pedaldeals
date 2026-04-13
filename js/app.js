@@ -60,20 +60,29 @@ function render() {
     var discount = pct(d);
     var pickClass = d.pick ? " pick" : "";
 
+    var saved = d.priceWas - d.priceNow;
+    var imgHtml = d.img
+      ? '<div class="card-img"><img src="' + d.img + '" alt="' + d.title.replace(/"/g, '') + '" loading="lazy"></div>'
+      : '<div class="card-img card-img-empty"></div>';
+
     html += '<article class="card' + pickClass + '">' +
-      '<div class="card-top">' +
-        '<span class="card-store">' + d.store + '</span>' +
-        '<span class="card-badge">' + discount + '% off</span>' +
-      '</div>' +
-      '<span class="card-cat">' + (catLabels[d.category] || d.category) + '</span>' +
-      '<h3 class="card-title">' + d.title + '</h3>' +
-      '<div class="card-prices">' +
-        '<span class="price-now">' + eur(d.priceNow) + '</span>' +
-        '<span class="price-was">' + eur(d.priceWas) + '</span>' +
-      '</div>' +
-      '<div class="card-bottom">' +
-        '<span class="card-date">' + ago(d.added) + '</span>' +
-        '<a href="' + d.storeUrl + '" class="card-link" target="_blank" rel="noopener">go to shop &rarr;</a>' +
+      imgHtml +
+      '<div class="card-body">' +
+        '<div class="card-top">' +
+          '<span class="card-store">' + d.store + '</span>' +
+          '<span class="card-badge">' + discount + '% off</span>' +
+        '</div>' +
+        '<span class="card-cat">' + (catLabels[d.category] || d.category) + '</span>' +
+        '<h3 class="card-title">' + d.title + '</h3>' +
+        '<div class="card-prices">' +
+          '<span class="price-now">' + eur(d.priceNow) + '</span>' +
+          '<span class="price-was">' + eur(d.priceWas) + '</span>' +
+          '<span class="price-saved">save ' + eur(saved) + '</span>' +
+        '</div>' +
+        '<div class="card-bottom">' +
+          '<span class="card-date">' + ago(d.added) + '</span>' +
+          '<a href="' + d.storeUrl + '" class="card-link" target="_blank" rel="noopener">go to shop &rarr;</a>' +
+        '</div>' +
       '</div>' +
     '</article>';
 

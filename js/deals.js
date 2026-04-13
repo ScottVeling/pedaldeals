@@ -7,7 +7,8 @@ var DEALS = [
     "priceWas": 125,
     "store": "Mantel",
     "storeUrl": "https://www.mantel.com/en/assos-mille-gt-jersey-c2-evo-jersey",
-    "added": "2026-04-13"
+    "added": "2026-04-13",
+    "img": "https://cdn.mantel.com/images/product.php?image_id=240996&w=320&h=256"
   },
   {
     "id": 2,
@@ -17,7 +18,8 @@ var DEALS = [
     "priceWas": 90,
     "store": "Mantel",
     "storeUrl": "https://www.mantel.com/en/assos-trail-womens-jersey-t3-jersey",
-    "added": "2026-04-13"
+    "added": "2026-04-13",
+    "img": "https://cdn.mantel.com/images/product.php?image_id=240588&w=320&h=256"
   },
   {
     "id": 3,
@@ -27,7 +29,8 @@ var DEALS = [
     "priceWas": 100,
     "store": "Mantel",
     "storeUrl": "https://www.mantel.com/en/sportful-supergiara-w-jersey",
-    "added": "2026-04-13"
+    "added": "2026-04-13",
+    "img": "https://cdn.mantel.com/images/product.php?image_id=196251&w=320&h=256"
   },
   {
     "id": 4,
@@ -37,7 +40,8 @@ var DEALS = [
     "priceWas": 120,
     "store": "Mantel",
     "storeUrl": "https://www.mantel.com/en/assos-trail-womens-ls-jersey-t3-jersey",
-    "added": "2026-04-13"
+    "added": "2026-04-13",
+    "img": "https://cdn.mantel.com/images/product.php?image_id=240646&w=320&h=256"
   },
   {
     "id": 5,
@@ -47,7 +51,8 @@ var DEALS = [
     "priceWas": 170,
     "store": "Mantel",
     "storeUrl": "https://www.mantel.com/en/sportful-tempo-w-2021-winter-jacket",
-    "added": "2026-04-13"
+    "added": "2026-04-13",
+    "img": "https://cdn.mantel.com/images/product.php?image_id=237574&w=320&h=256"
   },
   {
     "id": 6,
@@ -57,7 +62,8 @@ var DEALS = [
     "priceWas": 85,
     "store": "Mantel",
     "storeUrl": "https://www.mantel.com/en/sportful-velodrome-w",
-    "added": "2026-04-13"
+    "added": "2026-04-13",
+    "img": "https://cdn.mantel.com/images/product.php?image_id=211101&w=320&h=256"
   },
   {
     "id": 7,
@@ -67,7 +73,8 @@ var DEALS = [
     "priceWas": 100,
     "store": "Mantel",
     "storeUrl": "https://www.mantel.com/en/sportful-monocrom-woman-cycling-jersey",
-    "added": "2026-04-13"
+    "added": "2026-04-13",
+    "img": "https://cdn.mantel.com/images/product.php?image_id=211225&w=320&h=256"
   },
   {
     "id": 8,
@@ -77,7 +84,8 @@ var DEALS = [
     "priceWas": 100,
     "store": "Mantel",
     "storeUrl": "https://www.mantel.com/en/sportful-evo-w",
-    "added": "2026-04-13"
+    "added": "2026-04-13",
+    "img": "https://cdn.mantel.com/images/product.php?image_id=211095&w=320&h=256"
   },
   {
     "id": 9,
@@ -87,7 +95,8 @@ var DEALS = [
     "priceWas": 100,
     "store": "Mantel",
     "storeUrl": "https://www.mantel.com/en/sportful-pro-dames-jersey",
-    "added": "2026-04-13"
+    "added": "2026-04-13",
+    "img": "https://cdn.mantel.com/images/product.php?image_id=211199&w=320&h=256"
   },
   {
     "id": 10,
@@ -97,7 +106,8 @@ var DEALS = [
     "priceWas": 90,
     "store": "Mantel",
     "storeUrl": "https://www.mantel.com/en/sportful-escape-supergiara-w",
-    "added": "2026-04-13"
+    "added": "2026-04-13",
+    "img": "https://cdn.mantel.com/images/product.php?image_id=211084&w=320&h=256"
   },
   {
     "id": 11,
@@ -107,7 +117,8 @@ var DEALS = [
     "priceWas": 85,
     "store": "Mantel",
     "storeUrl": "https://www.mantel.com/en/sportful-flare-w",
-    "added": "2026-04-13"
+    "added": "2026-04-13",
+    "img": "https://cdn.mantel.com/images/product.php?image_id=163698&w=320&h=256"
   },
   {
     "id": 12,
@@ -117,7 +128,8 @@ var DEALS = [
     "priceWas": 75,
     "store": "Mantel",
     "storeUrl": "https://www.mantel.com/en/checkmate-w-sportful",
-    "added": "2026-04-13"
+    "added": "2026-04-13",
+    "img": "https://cdn.mantel.com/images/product.php?image_id=211141&w=320&h=256"
   },
   {
     "id": 13,
@@ -127,7 +139,8 @@ var DEALS = [
     "priceWas": 60,
     "store": "Mantel",
     "storeUrl": "https://www.mantel.com/en/sportful-velodrome-w-top-top",
-    "added": "2026-04-13"
+    "added": "2026-04-13",
+    "img": "https://cdn.mantel.com/images/product.php?image_id=213272&w=320&h=256"
   },
   {
     "id": 14,
@@ -137,7 +150,8 @@ var DEALS = [
     "priceWas": 20,
     "store": "Mantel",
     "storeUrl": "https://www.mantel.com/en/assos-gt-c2-cycling-socks",
-    "added": "2026-04-13"
+    "added": "2026-04-13",
+    "img": "https://cdn.mantel.com/images/product.php?image_id=241797&w=320&h=256"
   },
   {
     "id": 15,
@@ -147,7 +161,8 @@ var DEALS = [
     "priceWas": 180,
     "store": "Mantel",
     "storeUrl": "https://www.mantel.com/en/sportful-srk-jacket-winter-jacket",
-    "added": "2026-04-13"
+    "added": "2026-04-13",
+    "img": "https://cdn.mantel.com/images/product.php?image_id=238774&w=320&h=256"
   },
   {
     "id": 16,
@@ -157,7 +172,8 @@ var DEALS = [
     "priceWas": 60,
     "store": "Mantel",
     "storeUrl": "https://www.mantel.com/en/craft-core-essence-w-jersey",
-    "added": "2026-04-13"
+    "added": "2026-04-13",
+    "img": "https://cdn.mantel.com/images/product.php?image_id=201246&w=320&h=256"
   },
   {
     "id": 17,
@@ -167,7 +183,8 @@ var DEALS = [
     "priceWas": 90,
     "store": "Mantel",
     "storeUrl": "https://www.mantel.com/en/rogelli-signature-w-jersey",
-    "added": "2026-04-13"
+    "added": "2026-04-13",
+    "img": "https://cdn.mantel.com/images/product.php?image_id=205743&w=320&h=256"
   },
   {
     "id": 18,
@@ -177,7 +194,8 @@ var DEALS = [
     "priceWas": 220,
     "store": "Mantel",
     "storeUrl": "https://www.mantel.com/en/castelli-premio-evo-jersey-jersey",
-    "added": "2026-04-13"
+    "added": "2026-04-13",
+    "img": "https://cdn.mantel.com/images/product.php?image_id=233240&w=320&h=256"
   },
   {
     "id": 19,
@@ -187,7 +205,8 @@ var DEALS = [
     "priceWas": 190,
     "store": "Mantel",
     "storeUrl": "https://www.mantel.com/en/sidi-fast-2",
-    "added": "2026-04-13"
+    "added": "2026-04-13",
+    "img": "https://cdn.mantel.com/images/product.php?image_id=233057&w=320&h=256"
   },
   {
     "id": 20,
@@ -197,7 +216,8 @@ var DEALS = [
     "priceWas": 140,
     "store": "Futurumshop",
     "storeUrl": "https://www.futurumshop.nl/craft-adv-bike-subz-2-fietsjack-groen-zwart-heren.phtml",
-    "added": "2026-04-13"
+    "added": "2026-04-13",
+    "img": "https://assets.futurumshop.nl/fonl/img/Products/6030-4199-001-N2509/medium/craft-adv-bike-subz-2-fietsjack-groen-zwart-heren-1.webp"
   },
   {
     "id": 21,
@@ -207,7 +227,8 @@ var DEALS = [
     "priceWas": 140,
     "store": "Futurumshop",
     "storeUrl": "https://www.futurumshop.nl/craft-adv-bike-subz-2-fietsjack-groen-zwart-heren.phtml",
-    "added": "2026-04-13"
+    "added": "2026-04-13",
+    "img": "https://assets.futurumshop.nl/fonl/img/Products/6030-4199-001-N2509/medium/craft-adv-bike-subz-2-fietsjack-groen-zwart-heren-1.webp"
   },
   {
     "id": 22,
@@ -217,7 +238,8 @@ var DEALS = [
     "priceWas": 140,
     "store": "Futurumshop",
     "storeUrl": "https://www.futurumshop.nl/craft-adv-bike-subz-2-fietsjack-groen-zwart-heren.phtml",
-    "added": "2026-04-13"
+    "added": "2026-04-13",
+    "img": "https://assets.futurumshop.nl/fonl/img/Products/6030-4199-001-N2509/medium/craft-adv-bike-subz-2-fietsjack-groen-zwart-heren-1.webp"
   },
   {
     "id": 23,
@@ -227,7 +249,8 @@ var DEALS = [
     "priceWas": 140,
     "store": "Futurumshop",
     "storeUrl": "https://www.futurumshop.nl/craft-adv-bike-subz-2-fietsjack-groen-zwart-heren.phtml",
-    "added": "2026-04-13"
+    "added": "2026-04-13",
+    "img": "https://assets.futurumshop.nl/fonl/img/Products/6030-4199-001-N2509/medium/craft-adv-bike-subz-2-fietsjack-groen-zwart-heren-1.webp"
   },
   {
     "id": 24,
@@ -237,7 +260,8 @@ var DEALS = [
     "priceWas": 140,
     "store": "Futurumshop",
     "storeUrl": "https://www.futurumshop.nl/craft-adv-bike-subz-2-fietsjack-groen-zwart-heren.phtml",
-    "added": "2026-04-13"
+    "added": "2026-04-13",
+    "img": "https://assets.futurumshop.nl/fonl/img/Products/6030-4199-001-N2509/medium/craft-adv-bike-subz-2-fietsjack-groen-zwart-heren-1.webp"
   },
   {
     "id": 25,
@@ -247,7 +271,8 @@ var DEALS = [
     "priceWas": 69,
     "store": "Mantel",
     "storeUrl": "https://www.mantel.com/en/schwalbe-racing-ralph-addix-speed-super-ground-tyre",
-    "added": "2026-04-13"
+    "added": "2026-04-13",
+    "img": "https://cdn.mantel.com/images/product.php?image_id=216798&w=320&h=256"
   },
   {
     "id": 26,
@@ -257,7 +282,8 @@ var DEALS = [
     "priceWas": 62,
     "store": "Mantel",
     "storeUrl": "https://www.mantel.com/en/schwalbe-one-tle-road-bike-tyre",
-    "added": "2026-04-13"
+    "added": "2026-04-13",
+    "img": "https://cdn.mantel.com/images/product.php?image_id=182225&w=320&h=256"
   },
   {
     "id": 27,
@@ -267,7 +293,8 @@ var DEALS = [
     "priceWas": 100,
     "store": "Futurumshop",
     "storeUrl": "https://www.futurumshop.nl/craft-core-bike-essence-wool-fietsshirt-lange-mouwen-roze-dames.phtml",
-    "added": "2026-04-13"
+    "added": "2026-04-13",
+    "img": "https://assets.futurumshop.nl/fonl/img/Products/6030-4205-001-N2509/medium/craft-core-bike-essence-wool-fietsshirt-lange-mouwen-roze-dames-1.webp"
   },
   {
     "id": 28,
@@ -277,7 +304,8 @@ var DEALS = [
     "priceWas": 100,
     "store": "Futurumshop",
     "storeUrl": "https://www.futurumshop.nl/craft-core-bike-essence-wool-fietsshirt-lange-mouwen-roze-dames.phtml",
-    "added": "2026-04-13"
+    "added": "2026-04-13",
+    "img": "https://assets.futurumshop.nl/fonl/img/Products/6030-4205-001-N2509/medium/craft-core-bike-essence-wool-fietsshirt-lange-mouwen-roze-dames-1.webp"
   },
   {
     "id": 29,
@@ -287,7 +315,8 @@ var DEALS = [
     "priceWas": 100,
     "store": "Futurumshop",
     "storeUrl": "https://www.futurumshop.nl/craft-core-bike-essence-wool-fietsshirt-lange-mouwen-roze-dames.phtml",
-    "added": "2026-04-13"
+    "added": "2026-04-13",
+    "img": "https://assets.futurumshop.nl/fonl/img/Products/6030-4205-001-N2509/medium/craft-core-bike-essence-wool-fietsshirt-lange-mouwen-roze-dames-1.webp"
   },
   {
     "id": 30,
@@ -297,7 +326,8 @@ var DEALS = [
     "priceWas": 100,
     "store": "Futurumshop",
     "storeUrl": "https://www.futurumshop.nl/craft-core-bike-essence-wool-fietsshirt-lange-mouwen-roze-dames.phtml",
-    "added": "2026-04-13"
+    "added": "2026-04-13",
+    "img": "https://assets.futurumshop.nl/fonl/img/Products/6030-4205-001-N2509/medium/craft-core-bike-essence-wool-fietsshirt-lange-mouwen-roze-dames-1.webp"
   },
   {
     "id": 31,
@@ -307,7 +337,8 @@ var DEALS = [
     "priceWas": 100,
     "store": "Futurumshop",
     "storeUrl": "https://www.futurumshop.nl/craft-core-bike-essence-wool-fietsshirt-lange-mouwen-roze-dames.phtml",
-    "added": "2026-04-13"
+    "added": "2026-04-13",
+    "img": "https://assets.futurumshop.nl/fonl/img/Products/6030-4205-001-N2509/medium/craft-core-bike-essence-wool-fietsshirt-lange-mouwen-roze-dames-1.webp"
   },
   {
     "id": 32,
@@ -317,7 +348,8 @@ var DEALS = [
     "priceWas": 15,
     "store": "Mantel",
     "storeUrl": "https://www.mantel.com/en/gripgrab-summer-high-socks",
-    "added": "2026-04-13"
+    "added": "2026-04-13",
+    "img": "https://cdn.mantel.com/images/product.php?image_id=103263&w=320&h=256"
   },
   {
     "id": 33,
@@ -327,7 +359,8 @@ var DEALS = [
     "priceWas": 80,
     "store": "Mantel",
     "storeUrl": "https://www.mantel.com/en/castelli-squadra-stretch",
-    "added": "2026-04-13"
+    "added": "2026-04-13",
+    "img": "https://cdn.mantel.com/images/product.php?image_id=183211&w=320&h=256"
   },
   {
     "id": 34,
@@ -337,7 +370,8 @@ var DEALS = [
     "priceWas": 75,
     "store": "Mantel",
     "storeUrl": "https://www.mantel.com/en/sportful-matchy-w-jersey",
-    "added": "2026-04-13"
+    "added": "2026-04-13",
+    "img": "https://cdn.mantel.com/images/product.php?image_id=191279&w=320&h=256"
   },
   {
     "id": 35,
@@ -347,7 +381,8 @@ var DEALS = [
     "priceWas": 120,
     "store": "Futurumshop",
     "storeUrl": "https://www.futurumshop.nl/fyts-snlst-thermo-fietsshirt-lange-mouwen-donkerrood-dames.phtml",
-    "added": "2026-04-13"
+    "added": "2026-04-13",
+    "img": "https://assets.futurumshop.nl/fonl/img/Products/6911-0116-001-N2509/medium/fyts-snlst-thermo-fietsshirt-lange-mouwen-donkerrood-dames-1.webp"
   },
   {
     "id": 36,
@@ -357,7 +392,8 @@ var DEALS = [
     "priceWas": 120,
     "store": "Futurumshop",
     "storeUrl": "https://www.futurumshop.nl/fyts-snlst-thermo-fietsshirt-lange-mouwen-donkerrood-dames.phtml",
-    "added": "2026-04-13"
+    "added": "2026-04-13",
+    "img": "https://assets.futurumshop.nl/fonl/img/Products/6911-0116-001-N2509/medium/fyts-snlst-thermo-fietsshirt-lange-mouwen-donkerrood-dames-1.webp"
   },
   {
     "id": 37,
@@ -367,7 +403,8 @@ var DEALS = [
     "priceWas": 120,
     "store": "Futurumshop",
     "storeUrl": "https://www.futurumshop.nl/fyts-snlst-thermo-fietsshirt-lange-mouwen-donkerrood-dames.phtml",
-    "added": "2026-04-13"
+    "added": "2026-04-13",
+    "img": "https://assets.futurumshop.nl/fonl/img/Products/6911-0116-001-N2509/medium/fyts-snlst-thermo-fietsshirt-lange-mouwen-donkerrood-dames-1.webp"
   },
   {
     "id": 38,
@@ -377,7 +414,8 @@ var DEALS = [
     "priceWas": 120,
     "store": "Futurumshop",
     "storeUrl": "https://www.futurumshop.nl/fyts-snlst-thermo-fietsshirt-lange-mouwen-donkerrood-dames.phtml",
-    "added": "2026-04-13"
+    "added": "2026-04-13",
+    "img": "https://assets.futurumshop.nl/fonl/img/Products/6911-0116-001-N2509/medium/fyts-snlst-thermo-fietsshirt-lange-mouwen-donkerrood-dames-1.webp"
   },
   {
     "id": 39,
@@ -387,7 +425,8 @@ var DEALS = [
     "priceWas": 120,
     "store": "Futurumshop",
     "storeUrl": "https://www.futurumshop.nl/fyts-snlst-thermo-fietsshirt-lange-mouwen-donkerrood-dames.phtml",
-    "added": "2026-04-13"
+    "added": "2026-04-13",
+    "img": "https://assets.futurumshop.nl/fonl/img/Products/6911-0116-001-N2509/medium/fyts-snlst-thermo-fietsshirt-lange-mouwen-donkerrood-dames-1.webp"
   },
   {
     "id": 40,
@@ -397,6 +436,7 @@ var DEALS = [
     "priceWas": 60,
     "store": "Mantel",
     "storeUrl": "https://www.mantel.com/en/craft-core-2-pack-w",
-    "added": "2026-04-13"
+    "added": "2026-04-13",
+    "img": "https://cdn.mantel.com/images/product.php?image_id=174718&w=320&h=256"
   }
 ];
