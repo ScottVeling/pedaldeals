@@ -221,50 +221,6 @@ var DEALS = [
   },
   {
     "id": 21,
-    "title": "Craft ADV Bike SubZ 2 Fietsjack Groen/Zwart Heren",
-    "category": "bikes",
-    "priceNow": 71,
-    "priceWas": 140,
-    "store": "Futurumshop",
-    "storeUrl": "https://www.futurumshop.nl/craft-adv-bike-subz-2-fietsjack-groen-zwart-heren.phtml",
-    "added": "2026-04-13",
-    "img": "https://assets.futurumshop.nl/fonl/img/Products/6030-4199-001-N2509/medium/craft-adv-bike-subz-2-fietsjack-groen-zwart-heren-1.webp"
-  },
-  {
-    "id": 22,
-    "title": "Craft ADV Bike SubZ 2 Fietsjack Groen/Zwart Heren",
-    "category": "bikes",
-    "priceNow": 71,
-    "priceWas": 140,
-    "store": "Futurumshop",
-    "storeUrl": "https://www.futurumshop.nl/craft-adv-bike-subz-2-fietsjack-groen-zwart-heren.phtml",
-    "added": "2026-04-13",
-    "img": "https://assets.futurumshop.nl/fonl/img/Products/6030-4199-001-N2509/medium/craft-adv-bike-subz-2-fietsjack-groen-zwart-heren-1.webp"
-  },
-  {
-    "id": 23,
-    "title": "Craft ADV Bike SubZ 2 Fietsjack Groen/Zwart Heren",
-    "category": "bikes",
-    "priceNow": 71,
-    "priceWas": 140,
-    "store": "Futurumshop",
-    "storeUrl": "https://www.futurumshop.nl/craft-adv-bike-subz-2-fietsjack-groen-zwart-heren.phtml",
-    "added": "2026-04-13",
-    "img": "https://assets.futurumshop.nl/fonl/img/Products/6030-4199-001-N2509/medium/craft-adv-bike-subz-2-fietsjack-groen-zwart-heren-1.webp"
-  },
-  {
-    "id": 24,
-    "title": "Craft ADV Bike SubZ 2 Fietsjack Groen/Zwart Heren",
-    "category": "bikes",
-    "priceNow": 71,
-    "priceWas": 140,
-    "store": "Futurumshop",
-    "storeUrl": "https://www.futurumshop.nl/craft-adv-bike-subz-2-fietsjack-groen-zwart-heren.phtml",
-    "added": "2026-04-13",
-    "img": "https://assets.futurumshop.nl/fonl/img/Products/6030-4199-001-N2509/medium/craft-adv-bike-subz-2-fietsjack-groen-zwart-heren-1.webp"
-  },
-  {
-    "id": 25,
     "title": "Schwalbe Racing Ralph Addix Speed Super Ground TLE MTB Tyre",
     "category": "parts",
     "priceNow": 35,
@@ -275,7 +231,7 @@ var DEALS = [
     "img": "https://cdn.mantel.com/images/product.php?image_id=216798&w=320&h=256"
   },
   {
-    "id": 26,
+    "id": 22,
     "title": "Schwalbe One TLE Road Bike Tyre",
     "category": "bikes",
     "priceNow": 32,
@@ -286,7 +242,7 @@ var DEALS = [
     "img": "https://cdn.mantel.com/images/product.php?image_id=182225&w=320&h=256"
   },
   {
-    "id": 27,
+    "id": 23,
     "title": "Craft CORE Bike Essence Wool Fietsshirt Lange Mouwen Roze Dames",
     "category": "bikes",
     "priceNow": 53,
@@ -297,51 +253,7 @@ var DEALS = [
     "img": "https://assets.futurumshop.nl/fonl/img/Products/6030-4205-001-N2509/medium/craft-core-bike-essence-wool-fietsshirt-lange-mouwen-roze-dames-1.webp"
   },
   {
-    "id": 28,
-    "title": "Craft CORE Bike Essence Wool Fietsshirt Lange Mouwen Roze Dames",
-    "category": "bikes",
-    "priceNow": 53,
-    "priceWas": 100,
-    "store": "Futurumshop",
-    "storeUrl": "https://www.futurumshop.nl/craft-core-bike-essence-wool-fietsshirt-lange-mouwen-roze-dames.phtml",
-    "added": "2026-04-13",
-    "img": "https://assets.futurumshop.nl/fonl/img/Products/6030-4205-001-N2509/medium/craft-core-bike-essence-wool-fietsshirt-lange-mouwen-roze-dames-1.webp"
-  },
-  {
-    "id": 29,
-    "title": "Craft CORE Bike Essence Wool Fietsshirt Lange Mouwen Roze Dames",
-    "category": "bikes",
-    "priceNow": 53,
-    "priceWas": 100,
-    "store": "Futurumshop",
-    "storeUrl": "https://www.futurumshop.nl/craft-core-bike-essence-wool-fietsshirt-lange-mouwen-roze-dames.phtml",
-    "added": "2026-04-13",
-    "img": "https://assets.futurumshop.nl/fonl/img/Products/6030-4205-001-N2509/medium/craft-core-bike-essence-wool-fietsshirt-lange-mouwen-roze-dames-1.webp"
-  },
-  {
-    "id": 30,
-    "title": "Craft CORE Bike Essence Wool Fietsshirt Lange Mouwen Roze Dames",
-    "category": "bikes",
-    "priceNow": 53,
-    "priceWas": 100,
-    "store": "Futurumshop",
-    "storeUrl": "https://www.futurumshop.nl/craft-core-bike-essence-wool-fietsshirt-lange-mouwen-roze-dames.phtml",
-    "added": "2026-04-13",
-    "img": "https://assets.futurumshop.nl/fonl/img/Products/6030-4205-001-N2509/medium/craft-core-bike-essence-wool-fietsshirt-lange-mouwen-roze-dames-1.webp"
-  },
-  {
-    "id": 31,
-    "title": "Craft CORE Bike Essence Wool Fietsshirt Lange Mouwen Roze Dames",
-    "category": "bikes",
-    "priceNow": 53,
-    "priceWas": 100,
-    "store": "Futurumshop",
-    "storeUrl": "https://www.futurumshop.nl/craft-core-bike-essence-wool-fietsshirt-lange-mouwen-roze-dames.phtml",
-    "added": "2026-04-13",
-    "img": "https://assets.futurumshop.nl/fonl/img/Products/6030-4205-001-N2509/medium/craft-core-bike-essence-wool-fietsshirt-lange-mouwen-roze-dames-1.webp"
-  },
-  {
-    "id": 32,
+    "id": 24,
     "title": "GripGrab Classic High Cut Cycling Socks",
     "category": "clothing",
     "priceNow": 8,
@@ -352,7 +264,7 @@ var DEALS = [
     "img": "https://cdn.mantel.com/images/product.php?image_id=103263&w=320&h=256"
   },
   {
-    "id": 33,
+    "id": 25,
     "title": "Castelli Squadra Stretch Wind Jacket",
     "category": "clothing",
     "priceNow": 43,
@@ -363,7 +275,7 @@ var DEALS = [
     "img": "https://cdn.mantel.com/images/product.php?image_id=183211&w=320&h=256"
   },
   {
-    "id": 34,
+    "id": 26,
     "title": "Sportful Matchy W Cycling Jersey",
     "category": "clothing",
     "priceNow": 40,
@@ -374,7 +286,7 @@ var DEALS = [
     "img": "https://cdn.mantel.com/images/product.php?image_id=191279&w=320&h=256"
   },
   {
-    "id": 35,
+    "id": 27,
     "title": "FYTS SNLST Thermo Fietsshirt Lange Mouwen Donkerrood Dames",
     "category": "bikes",
     "priceNow": 65,
@@ -385,51 +297,7 @@ var DEALS = [
     "img": "https://assets.futurumshop.nl/fonl/img/Products/6911-0116-001-N2509/medium/fyts-snlst-thermo-fietsshirt-lange-mouwen-donkerrood-dames-1.webp"
   },
   {
-    "id": 36,
-    "title": "FYTS SNLST Thermo Fietsshirt Lange Mouwen Donkerrood Dames",
-    "category": "bikes",
-    "priceNow": 65,
-    "priceWas": 120,
-    "store": "Futurumshop",
-    "storeUrl": "https://www.futurumshop.nl/fyts-snlst-thermo-fietsshirt-lange-mouwen-donkerrood-dames.phtml",
-    "added": "2026-04-13",
-    "img": "https://assets.futurumshop.nl/fonl/img/Products/6911-0116-001-N2509/medium/fyts-snlst-thermo-fietsshirt-lange-mouwen-donkerrood-dames-1.webp"
-  },
-  {
-    "id": 37,
-    "title": "FYTS SNLST Thermo Fietsshirt Lange Mouwen Donkerrood Dames",
-    "category": "bikes",
-    "priceNow": 65,
-    "priceWas": 120,
-    "store": "Futurumshop",
-    "storeUrl": "https://www.futurumshop.nl/fyts-snlst-thermo-fietsshirt-lange-mouwen-donkerrood-dames.phtml",
-    "added": "2026-04-13",
-    "img": "https://assets.futurumshop.nl/fonl/img/Products/6911-0116-001-N2509/medium/fyts-snlst-thermo-fietsshirt-lange-mouwen-donkerrood-dames-1.webp"
-  },
-  {
-    "id": 38,
-    "title": "FYTS SNLST Thermo Fietsshirt Lange Mouwen Donkerrood Dames",
-    "category": "bikes",
-    "priceNow": 65,
-    "priceWas": 120,
-    "store": "Futurumshop",
-    "storeUrl": "https://www.futurumshop.nl/fyts-snlst-thermo-fietsshirt-lange-mouwen-donkerrood-dames.phtml",
-    "added": "2026-04-13",
-    "img": "https://assets.futurumshop.nl/fonl/img/Products/6911-0116-001-N2509/medium/fyts-snlst-thermo-fietsshirt-lange-mouwen-donkerrood-dames-1.webp"
-  },
-  {
-    "id": 39,
-    "title": "FYTS SNLST Thermo Fietsshirt Lange Mouwen Donkerrood Dames",
-    "category": "bikes",
-    "priceNow": 65,
-    "priceWas": 120,
-    "store": "Futurumshop",
-    "storeUrl": "https://www.futurumshop.nl/fyts-snlst-thermo-fietsshirt-lange-mouwen-donkerrood-dames.phtml",
-    "added": "2026-04-13",
-    "img": "https://assets.futurumshop.nl/fonl/img/Products/6911-0116-001-N2509/medium/fyts-snlst-thermo-fietsshirt-lange-mouwen-donkerrood-dames-1.webp"
-  },
-  {
-    "id": 40,
+    "id": 28,
     "title": "Craft Core 2-Pack W Base Layer Tops",
     "category": "accessories",
     "priceNow": 33,
@@ -438,5 +306,137 @@ var DEALS = [
     "storeUrl": "https://www.mantel.com/en/craft-core-2-pack-w",
     "added": "2026-04-13",
     "img": "https://cdn.mantel.com/images/product.php?image_id=174718&w=320&h=256"
+  },
+  {
+    "id": 29,
+    "title": "Craft Core 2-Pack Base Layer Tops",
+    "category": "accessories",
+    "priceNow": 33,
+    "priceWas": 60,
+    "store": "Mantel",
+    "storeUrl": "https://www.mantel.com/en/craft-core-2-pack",
+    "added": "2026-04-13",
+    "img": "https://cdn.mantel.com/images/product.php?image_id=169933&w=320&h=256"
+  },
+  {
+    "id": 30,
+    "title": "Assos Ego Cycling Socks",
+    "category": "clothing",
+    "priceNow": 12,
+    "priceWas": 21,
+    "store": "Mantel",
+    "storeUrl": "https://www.mantel.com/en/assos-ego-cycling-socks",
+    "added": "2026-04-13",
+    "img": "https://cdn.mantel.com/images/product.php?image_id=206944&w=320&h=256"
+  },
+  {
+    "id": 31,
+    "title": "Giro Cielo MIPS Road Bike Helmet",
+    "category": "bikes",
+    "priceNow": 110,
+    "priceWas": 200,
+    "store": "Mantel",
+    "storeUrl": "https://www.mantel.com/en/giro-cielo-mips",
+    "added": "2026-04-13",
+    "img": "https://cdn.mantel.com/images/product.php?image_id=205336&w=320&h=256"
+  },
+  {
+    "id": 32,
+    "title": "Castelli Libera 2 Jersey",
+    "category": "clothing",
+    "priceNow": 50,
+    "priceWas": 90,
+    "store": "Mantel",
+    "storeUrl": "https://www.mantel.com/en/castelli-libera-2",
+    "added": "2026-04-13",
+    "img": "https://cdn.mantel.com/images/product.php?image_id=221727&w=320&h=256"
+  },
+  {
+    "id": 33,
+    "title": "Rapha Core Cycling Jersey",
+    "category": "clothing",
+    "priceNow": 55,
+    "priceWas": 99,
+    "store": "Mantel",
+    "storeUrl": "https://www.mantel.com/en/rapha-core-jersey",
+    "added": "2026-04-13",
+    "img": "https://cdn.mantel.com/images/product.php?image_id=247192&w=320&h=256"
+  },
+  {
+    "id": 34,
+    "title": "GripGrab Ride II Waterproof Winter Cycling Gloves",
+    "category": "clothing",
+    "priceNow": 40,
+    "priceWas": 70,
+    "store": "Mantel",
+    "storeUrl": "https://www.mantel.com/en/gripgrab-ride-ii-waterproof-winter",
+    "added": "2026-04-13",
+    "img": "https://cdn.mantel.com/images/product.php?image_id=215042&w=320&h=256"
+  },
+  {
+    "id": 35,
+    "title": "Rogelli Core Winter Jacket",
+    "category": "clothing",
+    "priceNow": 40,
+    "priceWas": 70,
+    "store": "Mantel",
+    "storeUrl": "https://www.mantel.com/en/rogelli-core-winter-jacket",
+    "added": "2026-04-13",
+    "img": "https://cdn.mantel.com/images/product.php?image_id=237420&w=320&h=256"
+  },
+  {
+    "id": 36,
+    "title": "Castelli Espresso W Cycling Jersey",
+    "category": "clothing",
+    "priceNow": 70,
+    "priceWas": 120,
+    "store": "Mantel",
+    "storeUrl": "https://www.mantel.com/en/castelli-espresso-w-cycling-jersey",
+    "added": "2026-04-13",
+    "img": "https://cdn.mantel.com/images/product.php?image_id=222189&w=320&h=256"
+  },
+  {
+    "id": 37,
+    "title": "Sportful SRK Jersey",
+    "category": "clothing",
+    "priceNow": 50,
+    "priceWas": 85,
+    "store": "Mantel",
+    "storeUrl": "https://www.mantel.com/en/sportful-srk-jersey",
+    "added": "2026-04-13",
+    "img": "https://cdn.mantel.com/images/product.php?image_id=223503&w=320&h=256"
+  },
+  {
+    "id": 38,
+    "title": "Sidi Prima Road Cycling Shoes",
+    "category": "parts",
+    "priceNow": 100,
+    "priceWas": 169,
+    "store": "Mantel",
+    "storeUrl": "https://www.mantel.com/en/sidi-prima",
+    "added": "2026-04-13",
+    "img": "https://cdn.mantel.com/images/product.php?image_id=200749&w=320&h=256"
+  },
+  {
+    "id": 39,
+    "title": "Castelli Espresso Thermal W Jersey",
+    "category": "clothing",
+    "priceNow": 84,
+    "priceWas": 140,
+    "store": "Mantel",
+    "storeUrl": "https://www.mantel.com/en/castelli-espresso-thermal-w",
+    "added": "2026-04-13",
+    "img": "https://cdn.mantel.com/images/product.php?image_id=238673&w=320&h=256"
+  },
+  {
+    "id": 40,
+    "title": "Castelli Entrata Winter Jacket",
+    "category": "clothing",
+    "priceNow": 114,
+    "priceWas": 190,
+    "store": "Mantel",
+    "storeUrl": "https://www.mantel.com/en/castelli-entrata-winter-jacket",
+    "added": "2026-04-13",
+    "img": "https://cdn.mantel.com/images/product.php?image_id=238824&w=320&h=256"
   }
 ];

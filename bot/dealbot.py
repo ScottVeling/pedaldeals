@@ -503,13 +503,20 @@ def fetch_all_deals(config):
 
 def filter_deals(deals, config):
     min_pct = config["min_discount_percent"]
+    seen = set()
     filtered = []
     for d in deals:
         if d["price_was"] <= 0 or d["price_now"] <= 0:
             continue
         discount = (1 - d["price_now"] / d["price_was"]) * 100
-        if discount >= min_pct:
-            filtered.append(d)
+        if discount < min_pct:
+            continue
+        # deduplicate by title + store
+        key = d["title"].strip().lower() + "|" + d["store"].strip().lower()
+        if key in seen:
+            continue
+        seen.add(key)
+        filtered.append(d)
     # sort by discount descending
     filtered.sort(key=lambda d: (1 - d["price_now"] / d["price_was"]), reverse=True)
     return filtered[:config["max_deals"]]
