@@ -123,4 +123,14 @@ if (nlForm) {
   });
 }
 
+// update header stats
+var totalDealsEl = document.getElementById("totalDeals");
+var lastUpdatedEl = document.getElementById("lastUpdated");
+if (totalDealsEl) totalDealsEl.textContent = DEALS.length;
+if (lastUpdatedEl && DEALS.length > 0) {
+  var d = new Date(DEALS[0].added);
+  var months = ["jan","feb","mar","apr","may","jun","jul","aug","sep","oct","nov","dec"];
+  lastUpdatedEl.textContent = d.getDate() + " " + months[d.getMonth()] + " " + d.getFullYear();
+}
+
 render();

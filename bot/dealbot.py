@@ -31,6 +31,12 @@ except ImportError:
     feedparser = None
     print("warning: 'feedparser' not installed, RSS feeds disabled")
 
+try:
+    from bs4 import BeautifulSoup
+except ImportError:
+    BeautifulSoup = None
+    print("warning: 'beautifulsoup4' not installed, scrapers disabled")
+
 
 SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
 
@@ -183,6 +189,253 @@ def fetch_rss_feed(source_config, config):
 
 
 # ---------------------------------------------------------------------------
+# Source: Bike-Discount scraper (Shopware 6 AJAX widget)
+# ---------------------------------------------------------------------------
+def fetch_bike_discount(source_config, config):
+    if not requests or not BeautifulSoup:
+        print("  skipping bike-discount (missing deps)")
+        return []
+
+    base = "https://www.bike-discount.de/en/widgets/cms/navigation"
+    nav_id = source_config.get("nav_id", "018c7ec55ee371dabd7b73d1d4e9003b")
+    url = f"{base}/{nav_id}"
+    headers = {
+        "X-Requested-With": "XMLHttpRequest",
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
+        "Accept": "text/html, */*",
+        "Accept-Language": "en-US,en;q=0.9",
+        "Referer": "https://www.bike-discount.de/en/bike/sale/close-outs",
+    }
+    max_pages = source_config.get("max_pages", 5)
+    deals = []
+
+    for page in range(1, max_pages + 1):
+        print(f"  page {page}...")
+        params = {"p": page, "limit": 24, "order": "topseller",
+                  "no-aggregations": 1}
+        try:
+            resp = requests.get(url, params=params, headers=headers, timeout=30)
+            resp.raise_for_status()
+        except Exception as e:
+            print(f"  error on page {page}: {e}")
+            break
+
+        soup = BeautifulSoup(resp.text, "html.parser")
+        cards = soup.select(".product-box")
+        if not cards:
+            break
+
+        for card in cards:
+            title_el = card.select_one(".product-name")
+            if not title_el:
+                continue
+            title = title_el.get_text(strip=True)
+
+            link_el = card.select_one("a.product-image-link") or card.select_one("a")
+            link = link_el["href"] if link_el and link_el.get("href") else "#"
+            if link.startswith("/"):
+                link = "https://www.bike-discount.de" + link
+
+            price_now_el = card.select_one(".product-price")
+            list_price_el = card.select_one(".list-price-price")
+
+            if not price_now_el or not list_price_el:
+                continue
+
+            try:
+                price_now = float(
+                    price_now_el.get_text(strip=True)
+                    .replace("EUR", "").replace("€", "")
+                    .replace(".", "").replace(",", ".").strip()
+                )
+                price_was = float(
+                    list_price_el.get_text(strip=True)
+                    .replace("EUR", "").replace("€", "")
+                    .replace(".", "").replace(",", ".").strip()
+                )
+            except (ValueError, AttributeError):
+                continue
+
+            if price_was <= 0 or price_now <= 0 or price_now >= price_was:
+                continue
+
+            deals.append({
+                "title": title,
+                "category": guess_category(title, config),
+                "price_now": price_now,
+                "price_was": price_was,
+                "store": "Bike-Discount",
+                "url": link,
+                "pick": False,
+            })
+
+    return deals
+
+
+# ---------------------------------------------------------------------------
+# Source: Mantel scraper
+# ---------------------------------------------------------------------------
+def fetch_mantel(source_config, config):
+    if not requests or not BeautifulSoup:
+        print("  skipping mantel (missing deps)")
+        return []
+
+    base_url = source_config.get("url", "https://www.mantel.com/en/sale")
+    headers = {
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36",
+    }
+    max_pages = source_config.get("max_pages", 5)
+    deals = []
+
+    for page in range(1, max_pages + 1):
+        print(f"  page {page}...")
+        page_url = f"{base_url}?p={page}"
+        try:
+            resp = requests.get(page_url, headers=headers, timeout=30)
+            resp.raise_for_status()
+        except Exception as e:
+            print(f"  error on page {page}: {e}")
+            break
+
+        soup = BeautifulSoup(resp.text, "html.parser")
+        cards = soup.select("ma-product-card, .product-card")
+        if not cards:
+            break
+
+        for card in cards:
+            title_el = (card.select_one(".js-product-card-title-url")
+                        or card.select_one(".product-card-title a"))
+            if not title_el:
+                continue
+            title = " ".join(title_el.get_text().split())
+
+            link = title_el.get("href", "#")
+            if link.startswith("//"):
+                link = "https:" + link
+            elif link.startswith("/"):
+                link = "https://www.mantel.com" + link
+
+            rrp_el = card.select_one(".product-card-price-recommended span")
+            now_el = card.select_one(".product-card-price-current")
+
+            if not rrp_el or not now_el:
+                continue
+
+            try:
+                price_text = now_el.get_text(strip=True)
+                # handle "From 54,95" format
+                price_text = price_text.lower().replace("from", "").strip()
+                price_now = float(
+                    price_text.replace("€", "").replace(".", "").replace(",", ".").strip()
+                )
+                price_was = float(
+                    rrp_el.get_text(strip=True)
+                    .replace("€", "").replace(".", "").replace(",", ".").strip()
+                )
+            except (ValueError, AttributeError):
+                continue
+
+            if price_was <= 0 or price_now <= 0 or price_now >= price_was:
+                continue
+
+            deals.append({
+                "title": title,
+                "category": guess_category(title, config),
+                "price_now": price_now,
+                "price_was": price_was,
+                "store": "Mantel",
+                "url": link,
+                "pick": False,
+            })
+
+    return deals
+
+
+# ---------------------------------------------------------------------------
+# Source: Futurumshop scraper
+# ---------------------------------------------------------------------------
+def fetch_futurumshop(source_config, config):
+    if not requests or not BeautifulSoup:
+        print("  skipping futurumshop (missing deps)")
+        return []
+
+    base_url = source_config.get("url", "https://www.futurumshop.nl/sale/")
+    headers = {
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
+    }
+    max_pages = source_config.get("max_pages", 5)
+    deals = []
+
+    for page in range(1, max_pages + 1):
+        print(f"  page {page}...")
+        page_url = f"{base_url}?page={page}" if page > 1 else base_url
+        try:
+            resp = requests.get(page_url, headers=headers, timeout=30)
+            resp.raise_for_status()
+        except Exception as e:
+            print(f"  error on page {page}: {e}")
+            break
+
+        soup = BeautifulSoup(resp.text, "html.parser")
+        cards = soup.select(".productContent")
+        if not cards:
+            break
+
+        for card in cards:
+            title_el = card.select_one(".productFullName")
+            brand_el = card.select_one(".productTitle")
+            if not title_el:
+                continue
+
+            brand = ""
+            if brand_el:
+                brand = brand_el.get_text(strip=True).replace(
+                    title_el.get_text(strip=True), ""
+                ).strip()
+            full_name = title_el.get_text(strip=True)
+            title = f"{brand} {full_name}".strip() if brand else full_name
+
+            link_el = card.select_one("a[href]")
+            link = link_el["href"] if link_el else "#"
+            if link.startswith("//"):
+                link = "https:" + link
+            elif link.startswith("/"):
+                link = "https://www.futurumshop.nl" + link
+
+            former_el = card.select_one(".js_former-price")
+            current_el = card.select_one(".js_current-price")
+            if not former_el or not current_el:
+                continue
+
+            try:
+                price_was = float(
+                    former_el.get_text(strip=True)
+                    .replace(".", "").replace(",", ".").strip()
+                )
+                price_now = float(
+                    current_el.get_text(strip=True)
+                    .replace(".", "").replace(",", ".").strip()
+                )
+            except (ValueError, AttributeError):
+                continue
+
+            if price_was <= 0 or price_now <= 0 or price_now >= price_was:
+                continue
+
+            deals.append({
+                "title": title,
+                "category": guess_category(title, config),
+                "price_now": price_now,
+                "price_was": price_was,
+                "store": "Futurumshop",
+                "url": link,
+                "pick": False,
+            })
+
+    return deals
+
+
+# ---------------------------------------------------------------------------
 # Pipeline
 # ---------------------------------------------------------------------------
 def fetch_all_deals(config):
@@ -211,6 +464,25 @@ def fetch_all_deals(config):
                 all_deals.extend(fetch_rss_feed(src, config))
             except Exception as e:
                 print(f"  error: {e}")
+
+    # Scrapers
+    scrapers = {
+        "bike-discount": fetch_bike_discount,
+        "mantel": fetch_mantel,
+        "futurumshop": fetch_futurumshop,
+    }
+    for src in config["feeds"].get("scrapers", []):
+        if src.get("enabled"):
+            scraper_type = src.get("type", "")
+            fn = scrapers.get(scraper_type)
+            if fn:
+                print(f"[scraper] {src['name']}")
+                try:
+                    all_deals.extend(fn(src, config))
+                except Exception as e:
+                    print(f"  error: {e}")
+            else:
+                print(f"  unknown scraper type: {scraper_type}")
 
     return all_deals
 

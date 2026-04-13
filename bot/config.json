@@ -35,6 +35,30 @@
         "file": "manual_deals.json",
         "notes": "Deals you add by hand — always works, no external dependency"
       }
+    ],
+    "scrapers": [
+      {
+        "name": "Bike-Discount close-outs",
+        "type": "bike-discount",
+        "enabled": false,
+        "nav_id": "018c7ec55ee371dabd7b73d1d4e9003b",
+        "max_pages": 5,
+        "notes": "Blocked by Cloudflare — needs browser-based scraping"
+      },
+      {
+        "name": "Mantel sale",
+        "type": "mantel",
+        "enabled": true,
+        "url": "https://www.mantel.com/en/sale",
+        "max_pages": 5
+      },
+      {
+        "name": "Futurumshop sale",
+        "type": "futurumshop",
+        "enabled": true,
+        "url": "https://www.futurumshop.nl/sale/",
+        "max_pages": 5
+      }
     ]
   }
 }
