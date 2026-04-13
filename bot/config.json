@@ -1,15 +1,15 @@
 {
-  "min_discount_percent": 15,
-  "max_deals": 120,
+  "min_discount_percent": 10,
+  "max_deals": 150,
   "price_history_file": "price_history.json",
   "output_file": "../js/deals.js",
   "picks": [],
   "category_keywords": {
     "clothing": ["jersey", "jacket", "tights", "shorts", "bib", "gloves", "socks", "shoe", "shoes", "vest", "gilet", "cap", "arm warmer", "leg warmer", "overshoe", "rainjacket", "fietsshirt", "fietsjack", "fietsbroek", "wielershirt", "wielerjack", "broek", "shirt", "maillot", "trui", "tee", "pants", "trousers", "base layer", "rain jacket", "softshell", "top", "tricot", "regenjas", "handschoenen", "schoenen", "short", "trikot"],
-    "tools": ["chain tool", "tool", "stand", "repair", "cleaning", "lube", "torque", "brush", "degreaser", "muc-off", "maintenance", "wrench", "reiniger", "smeermiddel", "kettingpons", "borstel", "olie", "spray", "cleaner", "wax", "lubricant", "grease"],
+    "tools": ["chain tool", "tool", "stand", "repair", "cleaning", "lube", "torque", "brush", "degreaser", "muc-off", "maintenance", "wrench", "reiniger", "smeermiddel", "kettingpons", "borstel", "olie", "contactspray", "cleaner", "wax", "lubricant", "grease"],
     "parts": ["groupset", "derailleur", "cassette", "crankset", "brake", "shifter", "bottom bracket", "headset", "hub", "rim", "spoke", "tyre", "tire", "rotor", "caliper", "chain ring", "chainring", "chain", "disc pad", "disc pads", "sprocket", "pedal", "pedalen", "velglint", "kettingverbinder", "kettingschakel", "stuur"],
     "accessories": ["helmet", "helm", "light", "lock", "computer", "gps", "bottle", "cage", "saddle", "seatpost", "handlebar", "stem", "trainer", "pump", "bag", "rack", "bell", "basket", "fender", "mudguard", "grip", "rugzak", "beenbeschermers"],
-    "bikes": ["road bike", "mountainbike", "mountain bike", "gravel bike", "e-bike", "racefiets", "stadsfiets", "frameset", "frame", "complete bike", "e-speeder", "honzo", "kahuna", "dew-e", "macina", "speedster", "pathlite", "endeavour", "scott spark", "scott genius", "scott contessa", "scott scale", "kona", "ortler", "kalkhoff", "ktm"]
+    "bikes": ["road bike", "mountainbike", "mountain bike", "gravel bike", "e-bike", "racefiets", "stadsfiets", "frameset", "frame", "complete bike", "e-speeder", "honzo", "kahuna", "dew-e", "macina", "speedster", "pathlite", "endeavour", "scott spark", "scott genius", "scott contessa", "scott scale", "kona", "ortler", "kalkhoff", "ktm", "canyon", "aeroad", "endurace", "spectral", "neuron", "grail", "inflite", "grizl", "sensa", "bianchi", "cube attain", "cube agree", "cube litening", "cube reaction", "haibike", "stevens"]
   },
   "feeds": {
     "awin_feeds": [
@@ -79,6 +79,36 @@
         "enabled": true,
         "url": "https://www.lordgunbicycles.co.uk/offers",
         "max_pages": 3,
+        "gbp_to_eur": 1.16
+      },
+      {
+        "name": "Canyon Outlet",
+        "type": "canyon",
+        "enabled": true,
+        "urls": [
+          "https://www.canyon.com/en-nl/outlet-bikes/road-bikes/",
+          "https://www.canyon.com/en-nl/outlet-bikes/gravel-bikes/",
+          "https://www.canyon.com/en-nl/outlet-bikes/mountain-bikes/"
+        ]
+      },
+      {
+        "name": "12GOBiking deals",
+        "type": "12gobiking",
+        "enabled": true,
+        "categories": {
+          "2896": "road bikes",
+          "3406": "gravel bikes",
+          "2897": "mountain bikes"
+        },
+        "page_size": 20
+      },
+      {
+        "name": "Planet X bikes",
+        "type": "planetx",
+        "enabled": true,
+        "urls": [
+          "https://www.planetx.co.uk/collections/bikes-on-sale/products.json?limit=50"
+        ],
         "gbp_to_eur": 1.16
       },
       {

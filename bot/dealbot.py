@@ -712,6 +712,233 @@ def fetch_lordgun(source_config, config):
 
 
 # ---------------------------------------------------------------------------
+# Source: Canyon Outlet scraper
+# ---------------------------------------------------------------------------
+def fetch_canyon(source_config, config):
+    if not requests or not BeautifulSoup:
+        print("  skipping canyon (missing deps)")
+        return []
+
+    urls = source_config.get("urls", [
+        "https://www.canyon.com/en-nl/outlet-bikes/road-bikes/",
+        "https://www.canyon.com/en-nl/outlet-bikes/gravel-bikes/",
+        "https://www.canyon.com/en-nl/outlet-bikes/mountain-bikes/",
+    ])
+    headers = {
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
+    }
+    deals = []
+
+    for url in urls:
+        cat_name = url.rstrip("/").split("/")[-1]
+        print(f"  {cat_name}...")
+        try:
+            resp = requests.get(url, headers=headers, timeout=30)
+            resp.raise_for_status()
+        except Exception as e:
+            print(f"  error: {e}")
+            continue
+
+        soup = BeautifulSoup(resp.text, "html.parser")
+        cards = soup.select(".productTileDefault--bike")
+
+        for card in cards:
+            name_el = card.select_one("a.productTileDefault__productName")
+            if not name_el:
+                continue
+            title = name_el.get("title", "").strip() or name_el.get_text(strip=True)
+
+            link = name_el.get("href", "#")
+            if link.startswith("/"):
+                link = "https://www.canyon.com" + link
+
+            sale_el = card.select_one(".productTile__priceSale")
+            orig_el = card.select_one(".productTile__priceOriginal")
+            if not sale_el or not orig_el:
+                continue
+
+            img_el = card.select_one("img.productTileDefault__image")
+            img = ""
+            if img_el:
+                srcset = img_el.get("srcset", "")
+                if srcset:
+                    img = srcset.split(",")[0].strip().split(" ")[0]
+                else:
+                    img = img_el.get("src", "")
+
+            try:
+                sale_text = sale_el.get_text(strip=True).replace("€", "").replace(".", "").replace(",", ".").strip()
+                orig_text = orig_el.get_text(strip=True).replace("€", "").replace(".", "").replace(",", ".").strip()
+                price_now = float(sale_text)
+                price_was = float(orig_text)
+            except (ValueError, AttributeError):
+                continue
+
+            if price_was <= 0 or price_now <= 0 or price_now >= price_was:
+                continue
+
+            deals.append({
+                "title": "Canyon " + title,
+                "category": guess_category(title, config),
+                "price_now": price_now,
+                "price_was": price_was,
+                "store": "Canyon",
+                "url": link,
+                "img": img,
+                "pick": False,
+            })
+
+    return deals
+
+
+# ---------------------------------------------------------------------------
+# Source: 12GOBiking.nl scraper (GraphQL API)
+# ---------------------------------------------------------------------------
+def fetch_12gobiking(source_config, config):
+    if not requests:
+        print("  skipping 12gobiking (requests not installed)")
+        return []
+
+    categories = source_config.get("categories", {
+        "2896": "road bikes",
+        "3406": "gravel bikes",
+        "2897": "mountain bikes",
+    })
+    headers = {
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36",
+        "Content-Type": "application/json",
+    }
+    page_size = source_config.get("page_size", 20)
+    deals = []
+
+    for cat_id, cat_name in categories.items():
+        print(f"  {cat_name}...")
+        query = """{
+          products(filter: {category_id: {eq: "%s"}}, pageSize: %d, sort: {price: ASC}) {
+            items {
+              name
+              url_key
+              price_range {
+                minimum_price {
+                  regular_price { value }
+                  final_price { value }
+                }
+              }
+              image { url }
+            }
+          }
+        }""" % (cat_id, page_size)
+
+        try:
+            resp = requests.post(
+                "https://www.12gobiking.nl/graphql",
+                json={"query": query},
+                headers=headers,
+                timeout=30,
+            )
+            resp.raise_for_status()
+            data = resp.json()
+        except Exception as e:
+            print(f"  error: {e}")
+            continue
+
+        items = data.get("data", {}).get("products", {}).get("items", [])
+        for item in items:
+            title = item.get("name", "").strip()
+            if not title:
+                continue
+
+            url_key = item.get("url_key", "")
+            link = f"https://www.12gobiking.nl/{url_key}" if url_key else "#"
+
+            img = item.get("image", {}).get("url", "")
+
+            prices = item.get("price_range", {}).get("minimum_price", {})
+            price_was = prices.get("regular_price", {}).get("value", 0)
+            price_now = prices.get("final_price", {}).get("value", 0)
+
+            if price_was <= 0 or price_now <= 0 or price_now >= price_was:
+                continue
+
+            deals.append({
+                "title": title,
+                "category": guess_category(title, config),
+                "price_now": price_now,
+                "price_was": price_was,
+                "store": "12GOBiking",
+                "url": link,
+                "img": img,
+                "pick": False,
+            })
+
+    return deals
+
+
+# ---------------------------------------------------------------------------
+# Source: Planet X scraper (Shopify JSON API, GBP)
+# ---------------------------------------------------------------------------
+def fetch_planetx(source_config, config):
+    if not requests:
+        print("  skipping planetx (requests not installed)")
+        return []
+
+    urls = source_config.get("urls", [
+        "https://www.planetx.co.uk/collections/bikes-on-sale/products.json?limit=50",
+    ])
+    gbp_to_eur = source_config.get("gbp_to_eur", 1.16)
+    headers = {
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36",
+    }
+    deals = []
+
+    for url in urls:
+        print(f"  fetching...")
+        try:
+            resp = requests.get(url, headers=headers, timeout=30)
+            resp.raise_for_status()
+            data = resp.json()
+        except Exception as e:
+            print(f"  error: {e}")
+            continue
+
+        for product in data.get("products", []):
+            title = product.get("title", "").strip()
+            if not title:
+                continue
+
+            handle = product.get("handle", "")
+            link = f"https://www.planetx.co.uk/products/{handle}" if handle else "#"
+
+            images = product.get("images", [])
+            img = images[0].get("src", "") if images else ""
+
+            # use first variant with compare_at_price
+            for variant in product.get("variants", []):
+                compare = variant.get("compare_at_price")
+                price = variant.get("price")
+                if compare and price:
+                    try:
+                        price_gbp = float(price)
+                        was_gbp = float(compare)
+                    except (ValueError, TypeError):
+                        continue
+                    if was_gbp > price_gbp > 0:
+                        deals.append({
+                            "title": title,
+                            "category": guess_category(title, config),
+                            "price_now": round(price_gbp * gbp_to_eur, 2),
+                            "price_was": round(was_gbp * gbp_to_eur, 2),
+                            "store": "Planet X",
+                            "url": link,
+                            "img": img,
+                            "pick": False,
+                        })
+                        break  # only first variant
+
+    return deals
+
+
+# ---------------------------------------------------------------------------
 # Source: Hollandbikeshop scraper
 # ---------------------------------------------------------------------------
 def fetch_hollandbikeshop(source_config, config):
@@ -1003,6 +1230,9 @@ def fetch_all_deals(config):
         "rose-bikes": fetch_rose_bikes,
         "bikester": fetch_bikester,
         "lordgun": fetch_lordgun,
+        "canyon": fetch_canyon,
+        "12gobiking": fetch_12gobiking,
+        "planetx": fetch_planetx,
         "hollandbikeshop": fetch_hollandbikeshop,
         "bike-mailorder": fetch_bike_mailorder,
         "bike-components": fetch_bike_components,

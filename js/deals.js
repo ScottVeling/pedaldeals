@@ -166,17 +166,6 @@ var DEALS = [
   },
   {
     "id": 16,
-    "title": "Cube Heron SLT racefietshelm zwart",
-    "category": "accessories",
-    "priceNow": 65,
-    "priceWas": 250,
-    "store": "Bikester",
-    "storeUrl": "https://www.bikester.nl/products/cube-heron-slt-helm-schwarz",
-    "added": "2026-04-13",
-    "img": "https://www.bikester.nl/cdn/shop/files/09695b062a6ced36c1c5938028b7791df11dbb12_dc126007ca6dca3bef865681dba31eb6.jpg?v=1775131964&width=460"
-  },
-  {
-    "id": 17,
     "title": "Assos GT C2 Cycling Socks",
     "category": "clothing",
     "priceNow": 6,
@@ -187,7 +176,7 @@ var DEALS = [
     "img": "https://cdn.mantel.com/images/product.php?image_id=241797&w=320&h=256"
   },
   {
-    "id": 18,
+    "id": 17,
     "title": "Sram MRX Gripshift Draaiversteller 7V - Rood/Zwart",
     "category": "accessories",
     "priceNow": 6,
@@ -198,18 +187,7 @@ var DEALS = [
     "img": "https://hollandbikeshop.com/img/prod/sram-mrx-gripshift-draaiversteller-7v-rood-zwart-570362-11-s.jpg"
   },
   {
-    "id": 19,
-    "title": "Shimano Ultegra CS-6800 cassette 11-speed zilver",
-    "category": "parts",
-    "priceNow": 30,
-    "priceWas": 96,
-    "store": "Bikester",
-    "storeUrl": "https://www.bikester.nl/products/shimano-ultegra-cs-6800-kassette-11-fach-silber",
-    "added": "2026-04-13",
-    "img": "https://www.bikester.nl/cdn/shop/files/2c40d0c0dddf151b94ca993c2d2b8c92071ceb4d_ICS680011123.jpg?v=1773221897&width=460"
-  },
-  {
-    "id": 20,
+    "id": 18,
     "title": "SRAM Power Lock T-Type kettingverbinder 12-speed 4 stuks zwart",
     "category": "parts",
     "priceNow": 13,
@@ -220,29 +198,7 @@ var DEALS = [
     "img": "https://www.bikester.nl/cdn/shop/files/293caa6dca0b2fc7bc626ecf8182f54720743495_2043422_46cdf3.jpg?v=1773219488&width=460"
   },
   {
-    "id": 21,
-    "title": "VAUDE Posta LS Tricot II Dames zwart",
-    "category": "clothing",
-    "priceNow": 30,
-    "priceWas": 90,
-    "store": "Bikester",
-    "storeUrl": "https://www.bikester.nl/products/vaude-posta-ls-tricot-ii-damen-schwarz",
-    "added": "2026-04-13",
-    "img": "https://www.bikester.nl/cdn/shop/files/2e66b2cc9fecb96330f58771df22fa8c30942008_43024_010_6.jpg?v=1774483606&width=460"
-  },
-  {
-    "id": 22,
-    "title": "Continental Easy Tape hoge druk velglint 15 Bar zwart",
-    "category": "parts",
-    "priceNow": 6,
-    "priceWas": 18,
-    "store": "Bikester",
-    "storeUrl": "https://www.bikester.nl/products/continental-easy-tape-high-pressure-felgenband-15-bar-schwarz",
-    "added": "2026-04-13",
-    "img": "https://www.bikester.nl/cdn/shop/files/6a9bbf1e5f0346a92af7226562bd7da0e0078dee_2e32cbe6ca63358f685df8141b134754.jpg?v=1775217809&width=460"
-  },
-  {
-    "id": 23,
+    "id": 19,
     "title": "Taca bike Taca Bike pump",
     "category": "accessories",
     "priceNow": 10,
@@ -253,7 +209,7 @@ var DEALS = [
     "img": "https://d3n8mmvj9ns1ml.cloudfront.net/products/41640/bw_20260226-032032.jpg"
   },
   {
-    "id": 24,
+    "id": 20,
     "title": "VAUDE Matera LS Tricot II Dames baksteen",
     "category": "clothing",
     "priceNow": 29,
@@ -264,18 +220,7 @@ var DEALS = [
     "img": "https://www.bikester.nl/cdn/shop/files/44fe138509cb14f272487f688c65f0f2bc5c4289_46305_804_6__463058040460_bde9cec1.jpg?v=1774483468&width=460"
   },
   {
-    "id": 25,
-    "title": "VAUDE Heren All Year Moab 2in1 Regenbroek groen",
-    "category": "accessories",
-    "priceNow": 70,
-    "priceWas": 190,
-    "store": "Bikester",
-    "storeUrl": "https://www.bikester.nl/products/vaude-mens-all-year-moab-2in1-rain-pants-gruen",
-    "added": "2026-04-13",
-    "img": "https://www.bikester.nl/cdn/shop/files/3bf8335de6dbee3d26ef15a7951b0272b06f7d81_42548_151_6.jpg?v=1774483625&width=460"
-  },
-  {
-    "id": 26,
+    "id": 21,
     "title": "XLC XLC PU-A11 Minipomp 2-1, 20 Bar",
     "category": "accessories",
     "priceNow": 30,
@@ -286,7 +231,7 @@ var DEALS = [
     "img": "https://www.bikester.nl/cdn/shop/files/86535bb1b1bf6b6ce1d637093f71d0da87f0a691_250_19_23410_4055149479497_Wiener_1.webp?v=1773219065&width=460"
   },
   {
-    "id": 27,
+    "id": 22,
     "title": "VAUDE Posta Softshell Jas Dames neon oranje",
     "category": "clothing",
     "priceNow": 60,
@@ -297,18 +242,7 @@ var DEALS = [
     "img": "https://www.bikester.nl/cdn/shop/files/1b03506fee4a053c216a6e8bbd2e1413fd58cdb8_42462_128_6.jpg?v=1774483524&width=460"
   },
   {
-    "id": 28,
-    "title": "CUBE ATX Utility Trui lange mouw Heren",
-    "category": "clothing",
-    "priceNow": 15,
-    "priceWas": 40,
-    "store": "Bikester",
-    "storeUrl": "https://www.bikester.nl/products/cube-atx-utility-trikot-langarm",
-    "added": "2026-04-13",
-    "img": "https://www.bikester.nl/cdn/shop/files/b190a2e342cca110640739c732d87d88d49b1394_ed7149e4625ccc3f0f930fa4ae286d53.png?v=1773222261&width=460"
-  },
-  {
-    "id": 29,
+    "id": 23,
     "title": "EVOC Seat Pack Boa S grijs",
     "category": "accessories",
     "priceNow": 38,
@@ -319,7 +253,7 @@ var DEALS = [
     "img": "https://www.bikester.nl/cdn/shop/files/14310ea815978c7623e4f24389244bb6c0ae145d_4250450723066_SEAT_PACK_BOA_S_1L_CARBON_GREY_D1.jpg?v=1773219491&width=460"
   },
   {
-    "id": 30,
+    "id": 24,
     "title": "VAUDE Dames Comyou Regenjas oranje",
     "category": "clothing",
     "priceNow": 95,
@@ -330,18 +264,7 @@ var DEALS = [
     "img": "https://www.bikester.nl/cdn/shop/files/2925f3365ba61c589ec4abbff3c19e24bfc0a774_1d5248c51e6f508a.png?v=1773222136&width=460"
   },
   {
-    "id": 31,
-    "title": "VAUDE Dames Comyou Regenjas zwart",
-    "category": "clothing",
-    "priceNow": 95,
-    "priceWas": 250,
-    "store": "Bikester",
-    "storeUrl": "https://www.bikester.nl/products/vaude-womens-comyou-rain-jacket-schwarz",
-    "added": "2026-04-13",
-    "img": "https://www.bikester.nl/cdn/shop/files/1f572585c25e19ff5c452c2e5301e6f413fc5745_ea5ae8e84423c893.png?v=1773222089&width=460"
-  },
-  {
-    "id": 32,
+    "id": 25,
     "title": "CUBE BADGER MTB-helm black´n´splash",
     "category": "accessories",
     "priceNow": 50,
@@ -352,7 +275,7 @@ var DEALS = [
     "img": "https://www.bikester.nl/cdn/shop/files/4a24b1197f864cee3f84a88d8c894f92a908a984_1082378_8e15c8.jpg?v=1775174633&width=460"
   },
   {
-    "id": 33,
+    "id": 26,
     "title": "CUBE BADGER MTB-helm groen",
     "category": "accessories",
     "priceNow": 50,
@@ -363,7 +286,7 @@ var DEALS = [
     "img": "https://www.bikester.nl/cdn/shop/files/58445e38eae4e46aa28073cefc6ba742f582a831_1082384_5916ad.jpg?v=1775174758&width=460"
   },
   {
-    "id": 34,
+    "id": 27,
     "title": "CUBE BADGER MTB-helm blauw",
     "category": "accessories",
     "priceNow": 50,
@@ -374,7 +297,7 @@ var DEALS = [
     "img": "https://www.bikester.nl/cdn/shop/files/334e66f12c19259871163ba649e0661fee95b806_1082381_ac1a1a.jpg?v=1775174944&width=460"
   },
   {
-    "id": 35,
+    "id": 28,
     "title": "VAUDE Dames Kuro Halfzip LS Tricot beige",
     "category": "clothing",
     "priceNow": 35,
@@ -385,7 +308,7 @@ var DEALS = [
     "img": "https://www.bikester.nl/cdn/shop/files/9a16259234734744d955fc9918b946336b14b8c9_e1ae97b535cadd18.png?v=1773231955&width=460"
   },
   {
-    "id": 36,
+    "id": 29,
     "title": "Race Face Ambush beenbeschermers zwart",
     "category": "accessories",
     "priceNow": 55,
@@ -396,7 +319,7 @@ var DEALS = [
     "img": "https://www.bikester.nl/cdn/shop/files/1d2f22d827571534666e96509d391513411e64d8_794c466a75ff802304b6fc98f062b082.jpg?v=1773221713&width=460"
   },
   {
-    "id": 37,
+    "id": 30,
     "title": "Rose Merino Tube",
     "category": "accessories",
     "priceNow": 10,
@@ -407,7 +330,7 @@ var DEALS = [
     "img": "https://cdn.rosebikes.de/images/15BBCD3B2D1A24C9329CFF9EF3D6EE09.png?im=Resize=(600%2C600);BackgroundColor=ffffff"
   },
   {
-    "id": 38,
+    "id": 31,
     "title": "Rose Cotton Blend Tee",
     "category": "clothing",
     "priceNow": 12,
@@ -418,18 +341,7 @@ var DEALS = [
     "img": "https://storage.rosebikes.com/images/p/254687_1769137090.png?im=Resize=(600%2C600);BackgroundColor=ffffff"
   },
   {
-    "id": 39,
-    "title": "SRAM Power Lock T-Type kettingschakel 12-speed PVD 4 stuks",
-    "category": "parts",
-    "priceNow": 16,
-    "priceWas": 40,
-    "store": "Bikester",
-    "storeUrl": "https://www.bikester.nl/products/sram-power-lock-t-type-kettenverschlussglied-12-fach-pvd-4-stuck",
-    "added": "2026-04-13",
-    "img": "https://www.bikester.nl/cdn/shop/files/c68c15f5afef84039600d374fce18da06ac3f3fa_2043425_ec006b.jpg?v=1773219268&width=460"
-  },
-  {
-    "id": 40,
+    "id": 32,
     "title": "Ortler E-Speeder 400 zilver",
     "category": "bikes",
     "priceNow": 999,
@@ -440,7 +352,7 @@ var DEALS = [
     "img": "https://www.bikester.nl/cdn/shop/files/3fba4d76f9c64bf2070ab057843357e6a5cba914_2032233_bc8247.jpg?v=1774421244&width=460"
   },
   {
-    "id": 41,
+    "id": 33,
     "title": "Ortler E-Speeder 400 petrol",
     "category": "bikes",
     "priceNow": 999,
@@ -451,7 +363,7 @@ var DEALS = [
     "img": "https://www.bikester.nl/cdn/shop/files/b83843890e0f89f5b40779b1f0668a78f687dbbe_2032230_63d232.jpg?v=1774421124&width=460"
   },
   {
-    "id": 42,
+    "id": 34,
     "title": "Ortler E-Speeder 400 zwart",
     "category": "bikes",
     "priceNow": 999,
@@ -462,7 +374,7 @@ var DEALS = [
     "img": "https://www.bikester.nl/cdn/shop/files/1bdd04b6f9fb66792d3f9971e36b5523f6500d70_2032227_b8ad6d.jpg?v=1774421378&width=460"
   },
   {
-    "id": 43,
+    "id": 35,
     "title": "Race Face Ride Pedalen rood",
     "category": "parts",
     "priceNow": 20,
@@ -473,7 +385,7 @@ var DEALS = [
     "img": "https://www.bikester.nl/cdn/shop/files/11174382c3bb88463337e8fae0a6d425b4d85063_4b941f4685a87f1cbe9194216d9e24fe323b9ace_73b46b1516d13c5417986bf4b37670c410cee0af_Ride1.png?v=1773673321&width=460"
   },
   {
-    "id": 44,
+    "id": 36,
     "title": "Gonso Mesores korte mouw fiets shirt heren petrol/geel",
     "category": "clothing",
     "priceNow": 22,
@@ -484,7 +396,7 @@ var DEALS = [
     "img": "https://www.bikester.nl/cdn/shop/files/fe8ca6f6bd08561311621621a0c3b891e2d3add0_37b09508d75b597e558e732541b1239b.jpg?v=1773231836&width=460"
   },
   {
-    "id": 45,
+    "id": 37,
     "title": "Cube Edge Trail Rugzak 16l blauw",
     "category": "accessories",
     "priceNow": 57,
@@ -495,7 +407,18 @@ var DEALS = [
     "img": "https://www.bikester.nl/cdn/shop/files/f06d8982f4ade73c22fb7cc2321b883bd5d980e2_12109_0.png?v=1773218774&width=460"
   },
   {
-    "id": 46,
+    "id": 38,
+    "title": "Stevens Applebee",
+    "category": "bikes",
+    "priceNow": 500,
+    "priceWas": 1220,
+    "store": "12GOBiking",
+    "storeUrl": "https://www.12gobiking.nl/stevens-applebee",
+    "added": "2026-04-13",
+    "img": "https://www.12gobiking.nl/m/catalog/product/s/t/stevens_applebee_zwart_1.jpg?q=100&t=fit"
+  },
+  {
+    "id": 39,
     "title": "VAUDE MEN`S QIMSA SOFTSHELL PANTS II Winter Trousers",
     "category": "clothing",
     "priceNow": 75,
@@ -506,7 +429,7 @@ var DEALS = [
     "img": "https://cdn.rosebikes.de/images/CDA5E7087EB50D8E2C545345266AEFB0.png?im=Resize=(600%2C600);BackgroundColor=ffffff"
   },
   {
-    "id": 47,
+    "id": 40,
     "title": "Race Face Aeffect Riser Stuur Ø35mm 20mm zwart",
     "category": "parts",
     "priceNow": 25,
@@ -517,18 +440,7 @@ var DEALS = [
     "img": "https://www.bikester.nl/cdn/shop/files/62dbfd03bb49a82f44926b52e70b302ed2f39a07_4e68154c4d617eac4c5edb88731f1a71.jpg?v=1773221707&width=460"
   },
   {
-    "id": 48,
-    "title": "VAUDE Drop III jas dames blauw",
-    "category": "accessories",
-    "priceNow": 50,
-    "priceWas": 120,
-    "store": "Bikester",
-    "storeUrl": "https://www.bikester.nl/products/vaude-drop-iii-jacke-damen-blau",
-    "added": "2026-04-13",
-    "img": "https://www.bikester.nl/cdn/shop/files/2ac5d2de2584f566176f7a5792584c5d3918ec85_04964_179_6.jpg?v=1774483416&width=460"
-  },
-  {
-    "id": 49,
+    "id": 41,
     "title": "Rose Soft Grip 100 cm Can Be Cut To Size",
     "category": "accessories",
     "priceNow": 2,
@@ -539,7 +451,7 @@ var DEALS = [
     "img": "https://cdn.rosebikes.de/images/2E4F81379F802AA2A5C2ABDB1D17DC74.png?im=Resize=(600%2C600);BackgroundColor=ffffff"
   },
   {
-    "id": 50,
+    "id": 42,
     "title": "Ortler E-Speeder 500 zilver",
     "category": "bikes",
     "priceNow": 1099,
@@ -550,18 +462,7 @@ var DEALS = [
     "img": "https://www.bikester.nl/cdn/shop/files/e72f4770d19c24ab3d141883fa496639c519974f_2032242_2a1e2b.jpg?v=1774421295&width=460"
   },
   {
-    "id": 51,
-    "title": "Lazer Z1 KinetiCore TDF Aeroshell LTD Editie",
-    "category": "accessories",
-    "priceNow": 110,
-    "priceWas": 260,
-    "store": "Bikester",
-    "storeUrl": "https://www.bikester.nl/products/lazer-z1-kineticore-tdf-aeroshell-ltd-edition",
-    "added": "2026-04-13",
-    "img": "https://www.bikester.nl/cdn/shop/files/a9cfd7405dba31eebfe6b5ba6f30405ce3b67cb5_3bfe73630f155781fafc2389a631d3c03f7f0847_LZHR301_M_20230705_Right.png?v=1775174688&width=460"
-  },
-  {
-    "id": 52,
+    "id": 43,
     "title": "VAUDE Advanced IV 3/4 broek dames zwart",
     "category": "clothing",
     "priceNow": 39,
@@ -572,7 +473,7 @@ var DEALS = [
     "img": "https://www.bikester.nl/cdn/shop/files/13629806c85a95752e6b1100e8b79609f0e5eb38_42575_010_6__425750100400_515908cc.jpg?v=1775001831&width=460"
   },
   {
-    "id": 53,
+    "id": 44,
     "title": "Cube Edge Hybrid Rugzak zwart",
     "category": "accessories",
     "priceNow": 65,
@@ -583,18 +484,7 @@ var DEALS = [
     "img": "https://www.bikester.nl/cdn/shop/files/8725e2ac4d61b31037a8ccf63ffbf8a7c088c3b8_12118_0.png?v=1773219274&width=460"
   },
   {
-    "id": 54,
-    "title": "VAUDE Advanced IV Broek Dames zwart",
-    "category": "clothing",
-    "priceNow": 37,
-    "priceWas": 85,
-    "store": "Bikester",
-    "storeUrl": "https://www.bikester.nl/products/vaude-advanced-iv-hose-damen-schwarz",
-    "added": "2026-04-13",
-    "img": "https://www.bikester.nl/cdn/shop/files/14e68499f60774188f4124981e09d36a974a6769_42576_010_6__425760100360_442f6137.jpg?v=1775001832&width=460"
-  },
-  {
-    "id": 55,
+    "id": 45,
     "title": "Rose W Race Mid Szn LS Jersey",
     "category": "clothing",
     "priceNow": 45,
@@ -605,7 +495,7 @@ var DEALS = [
     "img": "https://cdn.rosebikes.de/images/1D9AE52D7734274F30E46EB40AD76BDF.png?im=Resize=(600%2C600);BackgroundColor=ffffff"
   },
   {
-    "id": 56,
+    "id": 46,
     "title": "VAUDE Ledro Shorts Dames rood",
     "category": "clothing",
     "priceNow": 45,
@@ -616,7 +506,7 @@ var DEALS = [
     "img": "https://www.bikester.nl/cdn/shop/files/9195d8f80d55d0289509982c3ab29f35bc932061_294e6d8589e64b81400ff606e3400750.jpg?v=1775001910&width=460"
   },
   {
-    "id": 57,
+    "id": 47,
     "title": "VAUDE Tamaro Shorts Dames zwart",
     "category": "clothing",
     "priceNow": 45,
@@ -627,7 +517,7 @@ var DEALS = [
     "img": "https://www.bikester.nl/cdn/shop/files/9daa22e3a7b08434c69d8e92cf0d0e3bb2bcd849_05487_010_6.jpg?v=1775001843&width=460"
   },
   {
-    "id": 58,
+    "id": 48,
     "title": "CUBE Handschoenen korte vingers X NF black´n´blue",
     "category": "clothing",
     "priceNow": 18,
@@ -638,7 +528,7 @@ var DEALS = [
     "img": "https://www.bikester.nl/cdn/shop/files/45b9f171ac11bbc7da8dd2aa72425642c6fe007e_1312648_044e22.jpg?v=1773221683&width=460"
   },
   {
-    "id": 59,
+    "id": 49,
     "title": "Cordo Kettingreiniger Kunststof - Transparant",
     "category": "accessories",
     "priceNow": 10,
@@ -649,29 +539,7 @@ var DEALS = [
     "img": "https://hollandbikeshop.com/img/prod/cordo-kettingreiniger-kunststof-transparant-8717565615724-0-s.jpg"
   },
   {
-    "id": 60,
-    "title": "VAUDE Tamaro Shorts II Dames oranje",
-    "category": "clothing",
-    "priceNow": 50,
-    "priceWas": 110,
-    "store": "Bikester",
-    "storeUrl": "https://www.bikester.nl/products/vaude-tamaro-shorts-ii-damen-orange",
-    "added": "2026-04-13",
-    "img": "https://www.bikester.nl/cdn/shop/files/cf0ccd24c9244944ae842f789f6a3de75c737a14_43240_804_6.jpg?v=1774483722&width=460"
-  },
-  {
-    "id": 61,
-    "title": "CUBE ATX WS Baggy Shorts CMPT violet",
-    "category": "clothing",
-    "priceNow": 23,
-    "priceWas": 50,
-    "store": "Bikester",
-    "storeUrl": "https://www.bikester.nl/products/cube-atx-ws-baggy-shorts-cmpt-violet",
-    "added": "2026-04-13",
-    "img": "https://www.bikester.nl/cdn/shop/files/475d4e610446e8b5d4df34d338255d617a847ded_1452858_fff2ba.jpg?v=1773221851&width=460"
-  },
-  {
-    "id": 62,
+    "id": 50,
     "title": "VAUDE Moab V Lange mouw T-shirt Dames blauw",
     "category": "clothing",
     "priceNow": 30,
@@ -682,18 +550,7 @@ var DEALS = [
     "img": "https://www.bikester.nl/cdn/shop/files/8f77f224d0747dba0e8a684b0e65d525b3c11266_42338_981_6.jpg?v=1773222026&width=460"
   },
   {
-    "id": 63,
-    "title": "VAUDE Tamaro III Shirt Dames blauw",
-    "category": "clothing",
-    "priceNow": 30,
-    "priceWas": 65,
-    "store": "Bikester",
-    "storeUrl": "https://www.bikester.nl/products/vaude-tamaro-iii-shirt-damen-blau",
-    "added": "2026-04-13",
-    "img": "https://www.bikester.nl/cdn/shop/files/30554090190f9bcee064704009b5304a60cf5ab9_40866_179_6.jpg?v=1774483678&width=460"
-  },
-  {
-    "id": 64,
+    "id": 51,
     "title": "VAUDE Dames Tremalzo Shorts III zwart",
     "category": "clothing",
     "priceNow": 65,
@@ -704,7 +561,7 @@ var DEALS = [
     "img": "https://www.bikester.nl/cdn/shop/files/bc205ab97a44bd5fa56a16f7be466cc72135e1e0_54f74c3282ddb8ee.png?v=1773222303&width=460"
   },
   {
-    "id": 65,
+    "id": 52,
     "title": "VAUDE Dames Tremalzo Shorts III baksteen",
     "category": "clothing",
     "priceNow": 65,
@@ -715,7 +572,7 @@ var DEALS = [
     "img": "https://www.bikester.nl/cdn/shop/files/4fa398c0d889834282f5f02d668928998c4e1263_45557_804_6__455578040400_9af638f1.webp?v=1773221966&width=460"
   },
   {
-    "id": 66,
+    "id": 53,
     "title": "Giro Scamp MIPS II helm mat paars towers",
     "category": "accessories",
     "priceNow": 35,
@@ -726,7 +583,7 @@ var DEALS = [
     "img": "https://www.bikester.nl/cdn/shop/files/8a7d968daa753b1b823fab98ac6d89dd4ee6b76a_505c520bdee727f6c52f6bdb80935cc5331c489e_4753d774b5d3bdfa7dcbfcdc9f41928ef3fc2a48_43a69aed05923.png?v=1775174792&width=460"
   },
   {
-    "id": 67,
+    "id": 54,
     "title": "Remmenreiniger - Turbo Clean - 500ml",
     "category": "accessories",
     "priceNow": 7,
@@ -737,18 +594,7 @@ var DEALS = [
     "img": "https://www.bike-mailorder.com/cdn/shop/files/BR0-50CLEANKT_01.jpg?v=1736859757&width=460"
   },
   {
-    "id": 68,
-    "title": "VAUDE Heren Moab Shorts V grijs",
-    "category": "clothing",
-    "priceNow": 58,
-    "priceWas": 120,
-    "store": "Bikester",
-    "storeUrl": "https://www.bikester.nl/products/vaude-mens-moab-shorts-v-grau",
-    "added": "2026-04-13",
-    "img": "https://www.bikester.nl/cdn/shop/files/cdb8bd03d64ae4132127a4c95490858f5a0961bb_43232_964_6__432329645600_1404173f.webp?v=1773222275&width=460"
-  },
-  {
-    "id": 69,
+    "id": 55,
     "title": "SRAM Rotor Centerline remschijf",
     "category": "parts",
     "priceNow": 30,
@@ -759,7 +605,7 @@ var DEALS = [
     "img": "https://www.bikester.nl/cdn/shop/files/9c17cd2d84650cadc41f38674c869c3b478410b4_542722_4ba868.jpg?v=1773221814&width=460"
   },
   {
-    "id": 70,
+    "id": 56,
     "title": "VAUDE Tremalzini Shorts III Dames zwart",
     "category": "clothing",
     "priceNow": 63,
@@ -770,7 +616,7 @@ var DEALS = [
     "img": "https://www.bikester.nl/cdn/shop/files/f8f271ee957ce09e71662d1faa44f45377b82e20_45558_010_6.jpg?v=1774483617&width=460"
   },
   {
-    "id": 71,
+    "id": 57,
     "title": "Gonso Sitivo fietsbroek met zacht zadelkussen heren zwart",
     "category": "clothing",
     "priceNow": 63,
@@ -781,7 +627,7 @@ var DEALS = [
     "img": "https://www.bikester.nl/cdn/shop/files/d9f4c816f03ad3e36a562e149b54e0a52bed7379_sitivo_shorts_s_black_skydiver_377468ce3a06fa5da72892111a76aae6_1920x1920_d8292899-4c8e-43c3-8b41-1e0d32020747.jpg?v=1775001815&width=460"
   },
   {
-    "id": 72,
+    "id": 58,
     "title": "Gonso Base Shirt Lange Mouwen Dames Zwart",
     "category": "clothing",
     "priceNow": 34,
@@ -792,18 +638,7 @@ var DEALS = [
     "img": "https://www.bikester.nl/cdn/shop/files/9c047d6b293c72509a1c7f31d2c6c4f73f1d18ec_f25f84becd6cbb948ed8cc4e3ce477871fd142b1_25a378463cb5965a168ed394464d62d19308057e_3005216_M1090.jpg?v=1773231833&width=460"
   },
   {
-    "id": 73,
-    "title": "Gonso Essential Jersey Longsleeve Therm W zwart",
-    "category": "clothing",
-    "priceNow": 34,
-    "priceWas": 70,
-    "store": "Bikester",
-    "storeUrl": "https://www.bikester.nl/products/gonso-essential-jersey-longsleeve-therm-w-black",
-    "added": "2026-04-13",
-    "img": "https://www.bikester.nl/cdn/shop/files/3a69c75711ead01ed9874c2f743f0ba85d6b530a_1dd2153740b8d7ad.png?v=1773231909&width=460"
-  },
-  {
-    "id": 74,
+    "id": 59,
     "title": "SRAM PowerLock&reg; 11-speed Chain Connector 4 pieces",
     "category": "parts",
     "priceNow": 1,
@@ -814,7 +649,7 @@ var DEALS = [
     "img": "https://cdn.rosebikes.de/images/B3536F63709F54D69066BE52F6EB947B.png?im=Resize=(600%2C600);BackgroundColor=ffffff"
   },
   {
-    "id": 75,
+    "id": 60,
     "title": "Schwalbe MAGIC MARRY Performance Line Bikepark MTB Clincher Tyre",
     "category": "parts",
     "priceNow": 20,
@@ -825,7 +660,7 @@ var DEALS = [
     "img": "https://cdn.rosebikes.de/images/27FA4DBC397CCB81A2280E15CCC4CA1F.png?im=Resize=(600%2C600);BackgroundColor=ffffff"
   },
   {
-    "id": 76,
+    "id": 61,
     "title": "Sportful SRK Winter Jacket",
     "category": "clothing",
     "priceNow": 88,
@@ -836,7 +671,18 @@ var DEALS = [
     "img": "https://cdn.mantel.com/images/product.php?image_id=238774&w=320&h=256"
   },
   {
-    "id": 77,
+    "id": 62,
+    "title": "Stevens Applebee Equipped",
+    "category": "bikes",
+    "priceNow": 700,
+    "priceWas": 1420,
+    "store": "12GOBiking",
+    "storeUrl": "https://www.12gobiking.nl/stevens-applebee-equipped",
+    "added": "2026-04-13",
+    "img": "https://www.12gobiking.nl/m/catalog/product/s/t/stevens_accessoires_dsc_3949-lr.jpg?q=100&t=fit"
+  },
+  {
+    "id": 63,
     "title": "HBS Pomp Nippel  &#216;5mm 2-Delig - Zilver",
     "category": "accessories",
     "priceNow": 2,
@@ -847,7 +693,7 @@ var DEALS = [
     "img": "https://hollandbikeshop.com/img/prod/hbs-pomp-nippel-o5mm-2-delig-zilver-578549-11-s.jpg"
   },
   {
-    "id": 78,
+    "id": 64,
     "title": "Rose Free Tony Mini Bell",
     "category": "accessories",
     "priceNow": 2,
@@ -858,9 +704,9 @@ var DEALS = [
     "img": "https://cdn.rosebikes.de/images/22BC818933DD104E533D1E1C9C3DE1B1.png?im=Resize=(600%2C600);BackgroundColor=ffffff"
   },
   {
-    "id": 79,
+    "id": 65,
     "title": "Cordo E-Bike Contactspray - Spuitbus 200ml",
-    "category": "bikes",
+    "category": "tools",
     "priceNow": 4,
     "priceWas": 8,
     "store": "Hollandbikeshop",
@@ -869,7 +715,7 @@ var DEALS = [
     "img": "https://hollandbikeshop.com/img/prod/cordo-e-bike-contactspray-spuitbus-200ml-8717565613669-0-s.jpg"
   },
   {
-    "id": 80,
+    "id": 66,
     "title": "Craft Core Essence W Jersey",
     "category": "clothing",
     "priceNow": 30,
@@ -880,7 +726,7 @@ var DEALS = [
     "img": "https://cdn.mantel.com/images/product.php?image_id=201246&w=320&h=256"
   },
   {
-    "id": 81,
+    "id": 67,
     "title": "Sportourer JAMMY City S",
     "category": "accessories",
     "priceNow": 15,
@@ -891,7 +737,7 @@ var DEALS = [
     "img": "https://www.bikester.nl/cdn/shop/files/e0b7a787cd9c8db5b34f6dee34fb53f20435dce5_306203001_Sportourer_JAMMY_City_black_main.jpg?v=1773219089&width=460"
   },
   {
-    "id": 82,
+    "id": 68,
     "title": "Rogelli Signature W Jersey",
     "category": "clothing",
     "priceNow": 45,
@@ -902,7 +748,7 @@ var DEALS = [
     "img": "https://cdn.mantel.com/images/product.php?image_id=205743&w=320&h=256"
   },
   {
-    "id": 83,
+    "id": 69,
     "title": "Zimtstern Bulletz Shirt SS Heren Jester Red/CYber Red",
     "category": "clothing",
     "priceNow": 40,
@@ -913,7 +759,7 @@ var DEALS = [
     "img": "https://www.bikester.nl/cdn/shop/files/12867262a3db5d2828d80a6c94b21dc798ca099c_e4063815a9e28a91cccf27563981565a.jpg?v=1773222373&width=460"
   },
   {
-    "id": 84,
+    "id": 70,
     "title": "Castelli Premio Evo Jersey",
     "category": "clothing",
     "priceNow": 110,
@@ -924,7 +770,7 @@ var DEALS = [
     "img": "https://cdn.mantel.com/images/product.php?image_id=233240&w=320&h=256"
   },
   {
-    "id": 85,
+    "id": 71,
     "title": "GOREWEAR STREAM Women’s GORE-TEX Rain Jacket",
     "category": "clothing",
     "priceNow": 110,
@@ -935,18 +781,7 @@ var DEALS = [
     "img": "https://cdn.rosebikes.de/images/68D7BC3062C884DA06A2F07660AAA03C.png?im=Resize=(600%2C600);BackgroundColor=ffffff"
   },
   {
-    "id": 86,
-    "title": "VAUDE Ledro Print Shorts Dames paars",
-    "category": "clothing",
-    "priceNow": 55,
-    "priceWas": 110,
-    "store": "Bikester",
-    "storeUrl": "https://www.bikester.nl/products/vaude-ledro-print-shorts-damen-lila",
-    "added": "2026-04-13",
-    "img": "https://www.bikester.nl/cdn/shop/files/44e3b2439e59e2f45deaa765f545845c848539b5_43227_190_6.jpg?v=1775001850&width=460"
-  },
-  {
-    "id": 87,
+    "id": 72,
     "title": "Zimtstern StarFlowz Evo Short Heren Gun Metal/Pirate Black",
     "category": "clothing",
     "priceNow": 60,
@@ -957,7 +792,7 @@ var DEALS = [
     "img": "https://www.bikester.nl/cdn/shop/files/9ceb91d9e5657490e45f2872482eb652bddb8ab0_1e97ca309ee03c5b8f2ba1ef7abf3ad5.jpg?v=1773221858&width=460"
   },
   {
-    "id": 88,
+    "id": 73,
     "title": "Zimtstern StarFlowz Evo Short Dames Gun Metal/Pirate Black",
     "category": "clothing",
     "priceNow": 60,
@@ -968,51 +803,18 @@ var DEALS = [
     "img": "https://www.bikester.nl/cdn/shop/files/8ed51a1927ea86163c201cd9f24e17cc592552f6_cb550fb70abe85d303af941ecf28984a.jpg?v=1773222345&width=460"
   },
   {
-    "id": 89,
-    "title": "VAUDE AM Moab Gravity Mid-Cut schoenen zwart",
-    "category": "clothing",
-    "priceNow": 75,
-    "priceWas": 150,
-    "store": "Bikester",
-    "storeUrl": "https://www.bikester.nl/products/vaude-am-moab-gravity-mid-cut-schuhe-schwarz",
+    "id": 74,
+    "title": "Focus Raven 8.7 2025",
+    "category": "accessories",
+    "priceNow": 1100,
+    "priceWas": 2200,
+    "store": "12GOBiking",
+    "storeUrl": "https://www.12gobiking.nl/focus-raven-8-7",
     "added": "2026-04-13",
-    "img": "https://www.bikester.nl/cdn/shop/files/c042418cecf04b060a118bc7f8adb04b25594fca_20554_061_6.jpg?v=1773222327&width=460"
+    "img": "https://www.12gobiking.nl/m/catalog/product/f/o/focus_raven_8.7_blauw_1_.png?q=100&t=fit"
   },
   {
-    "id": 90,
-    "title": "Gonso ROAD JACKET SOFTSHELL - Dames softshelljack mercury gray",
-    "category": "clothing",
-    "priceNow": 75,
-    "priceWas": 150,
-    "store": "Bikester",
-    "storeUrl": "https://www.bikester.nl/products/gonso-road-jacket-softshell-damen-mercury-gray",
-    "added": "2026-04-13",
-    "img": "https://www.bikester.nl/cdn/shop/files/c4e70ff4a56aa15e0b15864c67ada25733c1de58_43efb62596906c75.png?v=1773221737&width=460"
-  },
-  {
-    "id": 91,
-    "title": "Gonso Sitivo Trikot Therm Heren black",
-    "category": "clothing",
-    "priceNow": 70,
-    "priceWas": 140,
-    "store": "Bikester",
-    "storeUrl": "https://www.bikester.nl/products/gonso-sitivo-trikot-therm-herren-black",
-    "added": "2026-04-13",
-    "img": "https://www.bikester.nl/cdn/shop/files/b7176ce97a665f6cd43e7b4c1296769560fe8e3b_36930f23b15b0b7c.png?v=1773221917&width=460"
-  },
-  {
-    "id": 92,
-    "title": "Gonso SITIVO Thermo Shirt M Heren mercuurgrijs",
-    "category": "clothing",
-    "priceNow": 70,
-    "priceWas": 140,
-    "store": "Bikester",
-    "storeUrl": "https://www.bikester.nl/products/gonso-sitivo-trikot-therm-m-herren-mercury-gray",
-    "added": "2026-04-13",
-    "img": "https://www.bikester.nl/cdn/shop/files/0fa10894a48f7f57579ce996fec2331db12866c1_c64b747057d63dea.png?v=1773221653&width=460"
-  },
-  {
-    "id": 93,
+    "id": 75,
     "title": "CUBE BLACKLINE 3/4 broek voor heren",
     "category": "clothing",
     "priceNow": 55,
@@ -1023,7 +825,7 @@ var DEALS = [
     "img": "https://www.bikester.nl/cdn/shop/files/759df035655aa3a37f6477e7f2a2bf4a7c0bb4cf_1100366_f42b12.jpg?v=1775001859&width=460"
   },
   {
-    "id": 94,
+    "id": 76,
     "title": "CUBE Helm ROOK zilver mint",
     "category": "accessories",
     "priceNow": 50,
@@ -1034,40 +836,7 @@ var DEALS = [
     "img": "https://www.bikester.nl/cdn/shop/files/c90d05149f4a27bf04c5318f98397f72c119c2ff_1312612_76fdfb.jpg?v=1775174683&width=460"
   },
   {
-    "id": 95,
-    "title": "Gonso Adventure Jersey Fleece M zwart",
-    "category": "clothing",
-    "priceNow": 50,
-    "priceWas": 100,
-    "store": "Bikester",
-    "storeUrl": "https://www.bikester.nl/products/gonso-adventure-jersey-fleece-m-black",
-    "added": "2026-04-13",
-    "img": "https://www.bikester.nl/cdn/shop/files/34a165f52678dc2442e242a7bb628d903767a23a_3e299a87b1a90110.png?v=1773222136&width=460"
-  },
-  {
-    "id": 96,
-    "title": "CUBE TEAMLINE WS korte mouwen jersey blue´n´mint",
-    "category": "clothing",
-    "priceNow": 50,
-    "priceWas": 100,
-    "store": "Bikester",
-    "storeUrl": "https://www.bikester.nl/products/cube-teamline-ws-trikot-kurzarm-blue-n-mint",
-    "added": "2026-04-13",
-    "img": "https://www.bikester.nl/cdn/shop/files/9655ee28fe772227df8de730a448e06a1aa51bf8_1453023_73ee61.jpg?v=1773221733&width=460"
-  },
-  {
-    "id": 97,
-    "title": "CUBE BLACKLINE WS korte fietsbroek grijs",
-    "category": "clothing",
-    "priceNow": 45,
-    "priceWas": 90,
-    "store": "Bikester",
-    "storeUrl": "https://www.bikester.nl/products/cube-blackline-ws-radhose-kurz-grey",
-    "added": "2026-04-13",
-    "img": "https://www.bikester.nl/cdn/shop/files/09441b77022ff1b7fb2201a9d08802174f1f9507_76693711ecd8757342ce9caf35e5104c.png?v=1775001862&width=460"
-  },
-  {
-    "id": 98,
+    "id": 77,
     "title": "CUBE fietscomputer RACE TRAIN",
     "category": "accessories",
     "priceNow": 40,
@@ -1078,7 +847,7 @@ var DEALS = [
     "img": "https://www.bikester.nl/cdn/shop/files/13423f58da5ac6d7f044d746fb3ebc46fc767f40_470128_6aff2f.jpg?v=1773219417&width=460"
   },
   {
-    "id": 99,
+    "id": 78,
     "title": "Reverse Seismic 810 Carbon Stuur Ø31,8mm 25mm zwart/oranje",
     "category": "parts",
     "priceNow": 90,
@@ -1089,29 +858,7 @@ var DEALS = [
     "img": "https://www.bikester.nl/cdn/shop/files/9a3872c8abfa49cb9cecddc92e9f0249f3e141f1_1847611_e53da3.jpg?v=1774612926&width=460"
   },
   {
-    "id": 100,
-    "title": "Reverse Seismic 810 Carbon Stuur Ø35mm 25mm zwart/oranje",
-    "category": "parts",
-    "priceNow": 90,
-    "priceWas": 180,
-    "store": "Bikester",
-    "storeUrl": "https://www.bikester.nl/products/reverse-seismic-810-carbon-lenker-o35mm-25mm-schwarz-orange-2024",
-    "added": "2026-04-13",
-    "img": "https://www.bikester.nl/cdn/shop/files/36507817fbcfcd61fa7063b00702a63f4daf40c1_1847629_4c9021.jpg?v=1775822600&width=460"
-  },
-  {
-    "id": 101,
-    "title": "Gonso Essential Jersey Lange Mouwen Dames Zwart",
-    "category": "clothing",
-    "priceNow": 30,
-    "priceWas": 60,
-    "store": "Bikester",
-    "storeUrl": "https://www.bikester.nl/products/gonso-essential-jersey-longsleeve-women-black",
-    "added": "2026-04-13",
-    "img": "https://www.bikester.nl/cdn/shop/files/59106f11f836c61e644f7e7028bdfb4c89a179e6_3001151_M10900_Cisterna_B_01.jpg?v=1773222150&width=460"
-  },
-  {
-    "id": 102,
+    "id": 79,
     "title": "Reverse AM Ergo zadel zwart/rood",
     "category": "accessories",
     "priceNow": 35,
@@ -1122,7 +869,7 @@ var DEALS = [
     "img": "https://www.bikester.nl/cdn/shop/files/2d5104919e28e2576a63618a7b3b9dd2b6720628_551068_fc2a45.jpg?v=1775274087&width=460"
   },
   {
-    "id": 103,
+    "id": 80,
     "title": "Reverse Base stuur 25,4mm zwart",
     "category": "parts",
     "priceNow": 35,
@@ -1133,7 +880,7 @@ var DEALS = [
     "img": "https://www.bikester.nl/cdn/shop/files/be827a9eb6aec129512378620114cfd39c51994b_468585_bf3086.jpg?v=1774353808&width=460"
   },
   {
-    "id": 104,
+    "id": 81,
     "title": "Reverse AM Ergo zadel zwart/stealth",
     "category": "accessories",
     "priceNow": 35,
@@ -1144,7 +891,7 @@ var DEALS = [
     "img": "https://www.bikester.nl/cdn/shop/files/07c0848f49644b4274e1e2de02c4730a3768a6ca_1507154_ae5e61.jpg?v=1775274087&width=460"
   },
   {
-    "id": 105,
+    "id": 82,
     "title": "Reverse AM Ergo zadel zwart/wit",
     "category": "accessories",
     "priceNow": 35,
@@ -1155,7 +902,7 @@ var DEALS = [
     "img": "https://www.bikester.nl/cdn/shop/files/0fec47987b72234f36861457ec007d8c4056c9d0_468610_867c95.jpg?v=1775274089&width=460"
   },
   {
-    "id": 106,
+    "id": 83,
     "title": "Reverse AM Ergo zadel zwart/roze",
     "category": "accessories",
     "priceNow": 35,
@@ -1166,7 +913,7 @@ var DEALS = [
     "img": "https://www.bikester.nl/cdn/shop/files/a915b2bea0a0ddb9ccbd6222af3a553f11d68900_709681_918f22.jpg?v=1775273972&width=460"
   },
   {
-    "id": 107,
+    "id": 84,
     "title": "Reverse AM Ergo zadel zwart/blauw",
     "category": "accessories",
     "priceNow": 35,
@@ -1177,7 +924,7 @@ var DEALS = [
     "img": "https://www.bikester.nl/cdn/shop/files/2f1a28ff912438a6e7a20d4fccca286bd158f4f8_551065_a67c4e.jpg?v=1775273972&width=460"
   },
   {
-    "id": 108,
+    "id": 85,
     "title": "Reverse AM Ergo zadel zwart/groen",
     "category": "accessories",
     "priceNow": 35,
@@ -1188,7 +935,7 @@ var DEALS = [
     "img": "https://www.bikester.nl/cdn/shop/files/185a5caafa804d7010a2700454c1f19b50de8456_386737_dd56b8.jpg?v=1775273971&width=460"
   },
   {
-    "id": 109,
+    "id": 86,
     "title": "Reverse AM Ergo zadel zwart/geel",
     "category": "accessories",
     "priceNow": 35,
@@ -1199,7 +946,7 @@ var DEALS = [
     "img": "https://www.bikester.nl/cdn/shop/files/b9a181c99af89bce8179849383911059d97ced30_709684_bf39af.jpg?v=1775274010&width=460"
   },
   {
-    "id": 110,
+    "id": 87,
     "title": "Reverse Base stuur 25,4mm rood",
     "category": "parts",
     "priceNow": 35,
@@ -1210,29 +957,7 @@ var DEALS = [
     "img": "https://www.bikester.nl/cdn/shop/files/ce0cb684d488f04aea412dcc49c3ebcd6adaeef6_468586_62dbfa.jpg?v=1774353796&width=460"
   },
   {
-    "id": 111,
-    "title": "Reverse base stuur 25,4 mm grijs",
-    "category": "parts",
-    "priceNow": 35,
-    "priceWas": 70,
-    "store": "Bikester",
-    "storeUrl": "https://www.bikester.nl/products/reverse-base-lenker-25-4mm-grau-2024",
-    "added": "2026-04-13",
-    "img": "https://www.bikester.nl/cdn/shop/files/468587_8d9314.jpg?v=1714052857&width=460"
-  },
-  {
-    "id": 112,
-    "title": "Reverse XC stuurpen Ø31,8mm 20° zwart",
-    "category": "accessories",
-    "priceNow": 35,
-    "priceWas": 70,
-    "store": "Bikester",
-    "storeUrl": "https://www.bikester.nl/products/reverse-xc-vorbau-o31-8mm-20-schwarz-2024",
-    "added": "2026-04-13",
-    "img": "https://www.bikester.nl/cdn/shop/files/0e489d779d7cf7bfdd9bd8fa5f4f698aeadc81c7_386750_d20898.jpg?v=1774353813&width=460"
-  },
-  {
-    "id": 113,
+    "id": 88,
     "title": "ACID spatbord VANE voor 29\" black´n´blue",
     "category": "accessories",
     "priceNow": 10,
@@ -1243,7 +968,7 @@ var DEALS = [
     "img": "https://www.bikester.nl/cdn/shop/files/c108b224f79beca8b131c5b0d05d0c9fd02b7ea7_1072277_0eee05.jpg?v=1773219480&width=460"
   },
   {
-    "id": 114,
+    "id": 89,
     "title": "ACID spatbord VANE voor 27,5\" black´n´blue",
     "category": "accessories",
     "priceNow": 10,
@@ -1254,7 +979,7 @@ var DEALS = [
     "img": "https://www.bikester.nl/cdn/shop/files/07e85f763518408937d8de5fc7befa046d5e819c_1072265_cbc9b6.jpg?v=1773219347&width=460"
   },
   {
-    "id": 115,
+    "id": 90,
     "title": "Sidi Fast 2 Road Cycling Shoes",
     "category": "clothing",
     "priceNow": 96,
@@ -1265,7 +990,7 @@ var DEALS = [
     "img": "https://cdn.mantel.com/images/product.php?image_id=233057&w=320&h=256"
   },
   {
-    "id": 116,
+    "id": 91,
     "title": "Rose Adventure Sherpa Vest",
     "category": "clothing",
     "priceNow": 38,
@@ -1276,7 +1001,7 @@ var DEALS = [
     "img": "https://storage.rosebikes.com/images/p/248578_1769107745.png?im=Resize=(600%2C600);BackgroundColor=ffffff"
   },
   {
-    "id": 117,
+    "id": 92,
     "title": "Bike Cleaner Spuitfles 1 liter",
     "category": "tools",
     "priceNow": 9,
@@ -1287,7 +1012,7 @@ var DEALS = [
     "img": "https://www.bike-mailorder.com/cdn/shop/files/Nicht-benanntUoKjTibCzIcv4.jpg?v=1736823040&width=460"
   },
   {
-    "id": 118,
+    "id": 93,
     "title": "Craft ADV Bike SubZ 2 Fietsjack Groen/Zwart Heren",
     "category": "clothing",
     "priceNow": 71,
@@ -1298,7 +1023,7 @@ var DEALS = [
     "img": "https://assets.futurumshop.nl/fonl/img/Products/6030-4199-001-N2509/medium/craft-adv-bike-subz-2-fietsjack-groen-zwart-heren-1.webp"
   },
   {
-    "id": 119,
+    "id": 94,
     "title": "Schwalbe Racing Ralph Addix Speed Super Ground TLE MTB Tyre",
     "category": "parts",
     "priceNow": 35,
@@ -1309,7 +1034,7 @@ var DEALS = [
     "img": "https://cdn.mantel.com/images/product.php?image_id=216798&w=320&h=256"
   },
   {
-    "id": 120,
+    "id": 95,
     "title": "SHIMANO GRX FC-RX810 Hollowtech II Crankset 1x11",
     "category": "parts",
     "priceNow": 120,
@@ -1318,5 +1043,610 @@ var DEALS = [
     "storeUrl": "https://www.rosebikes.com/p/shimano-grx-fc-rx810-hollowtech-ii-crankset-1x11-2678822",
     "added": "2026-04-13",
     "img": "https://cdn.rosebikes.de/images/2DE79A88A34EBF1F3B39AE017CB8B029.png?im=Resize=(600%2C600);BackgroundColor=ffffff"
+  },
+  {
+    "id": 96,
+    "title": "Schwalbe One TLE Road Bike Tyre",
+    "category": "parts",
+    "priceNow": 32,
+    "priceWas": 62,
+    "store": "Mantel",
+    "storeUrl": "https://www.mantel.com/en/schwalbe-one-tle-road-bike-tyre",
+    "added": "2026-04-13",
+    "img": "https://cdn.mantel.com/images/product.php?image_id=182225&w=320&h=256"
+  },
+  {
+    "id": 97,
+    "title": "Gereedschapskist voor op reis",
+    "category": "accessories",
+    "priceNow": 158,
+    "priceWas": 304,
+    "store": "Bike-Mailorder",
+    "storeUrl": "https://www.bike-mailorder.com/nl-nl/products/birzman-travel-tool-box",
+    "added": "2026-04-13",
+    "img": "https://www.bike-mailorder.com/cdn/shop/files/Koffer-front.jpg?v=1736918377&width=460"
+  },
+  {
+    "id": 98,
+    "title": "Gereedschap TL-FC41 voor kettingbladmontage",
+    "category": "accessories",
+    "priceNow": 11,
+    "priceWas": 20,
+    "store": "Bike-Mailorder",
+    "storeUrl": "https://www.bike-mailorder.com/nl-nl/products/shimano-werkzeug-tl-fc41-fuer-kettenblattmontage",
+    "added": "2026-04-13",
+    "img": "https://www.bike-mailorder.com/cdn/shop/files/123IBQtXOgyLV7IQ.jpg?v=1736824125&width=460"
+  },
+  {
+    "id": 99,
+    "title": "Scott Spark 950 Light Rhino Grijs (2024)",
+    "category": "accessories",
+    "priceNow": 1999,
+    "priceWas": 3799,
+    "store": "Bikester",
+    "storeUrl": "https://www.bikester.nl/products/scott-spark-950-2024",
+    "added": "2026-04-13",
+    "img": "https://www.bikester.nl/cdn/shop/files/b3237cf8089414edb3b85c96b195db7cebe6ab2f_Scott_Spark.png?v=1774420933&width=460"
+  },
+  {
+    "id": 100,
+    "title": "Ghost Lector FS SF Universal",
+    "category": "accessories",
+    "priceNow": 3000,
+    "priceWas": 5700,
+    "store": "12GOBiking",
+    "storeUrl": "https://www.12gobiking.nl/ghost-lector-fs-sf-universal",
+    "added": "2026-04-13",
+    "img": "https://www.12gobiking.nl/m/catalog/product/g/h/ghost_lector_fs_sf_universal_1_.png?q=100&t=fit"
+  },
+  {
+    "id": 101,
+    "title": "SHIMANO SAINT/ZEE/XT H03C & H03A DISC PADS",
+    "category": "parts",
+    "priceNow": 19,
+    "priceWas": 36,
+    "store": "Rose Bikes",
+    "storeUrl": "https://www.rosebikes.com/p/shimano-saintzeext-h03c-h03a-disc-pads-642201",
+    "added": "2026-04-13",
+    "img": "https://cdn.rosebikes.de/images/684172E044D6AF26EE79CD7FD57BED27.png?im=Resize=(600%2C600);BackgroundColor=ffffff"
+  },
+  {
+    "id": 102,
+    "title": "HBS Verlichtingsset 3 LED Voor / 1 LED Achter - Mat Zwart",
+    "category": "accessories",
+    "priceNow": 9,
+    "priceWas": 17,
+    "store": "Hollandbikeshop",
+    "storeUrl": "https://hollandbikeshop.com/fietsverlichting/hbs-fietsverlichting/hbs-verlichtingsset/hbs-verlichtingsset-3-led-voor-1-led-achter-mat-zwart/",
+    "added": "2026-04-13",
+    "img": "https://hollandbikeshop.com/img/prod/hbs-verlichtingsset-3-led-voor-1-led-achter-mat-zwart-385060-0-s.jpg"
+  },
+  {
+    "id": 103,
+    "title": "Craft CORE Bike Essence Wool Fietsshirt Lange Mouwen Roze Dames",
+    "category": "clothing",
+    "priceNow": 53,
+    "priceWas": 100,
+    "store": "Futurumshop",
+    "storeUrl": "https://www.futurumshop.nl/craft-core-bike-essence-wool-fietsshirt-lange-mouwen-roze-dames.phtml",
+    "added": "2026-04-13",
+    "img": "https://assets.futurumshop.nl/fonl/img/Products/6030-4205-001-N2509/medium/craft-core-bike-essence-wool-fietsshirt-lange-mouwen-roze-dames-1.webp"
+  },
+  {
+    "id": 104,
+    "title": "GripGrab Classic High Cut Cycling Socks",
+    "category": "clothing",
+    "priceNow": 8,
+    "priceWas": 15,
+    "store": "Mantel",
+    "storeUrl": "https://www.mantel.com/en/gripgrab-summer-high-socks",
+    "added": "2026-04-13",
+    "img": "https://cdn.mantel.com/images/product.php?image_id=103263&w=320&h=256"
+  },
+  {
+    "id": 105,
+    "title": "Race Face Flank Core Protector Shirt Stealth D3O Heren",
+    "category": "clothing",
+    "priceNow": 80,
+    "priceWas": 150,
+    "store": "Bikester",
+    "storeUrl": "https://www.bikester.nl/products/race-face-flank-core-protektor-trikot-stealth-d3o-herren",
+    "added": "2026-04-13",
+    "img": "https://www.bikester.nl/cdn/shop/files/9a8d4179c6cf52a5e4a18d238ff4e5515e25691f_895428010751_FLANKCORED3OSTEALTH_L_D2.jpg?v=1773221630&width=460"
+  },
+  {
+    "id": 106,
+    "title": "Airmax Pro digitale luchtdrukmeter",
+    "category": "accessories",
+    "priceNow": 10,
+    "priceWas": 18,
+    "store": "Bike-Mailorder",
+    "storeUrl": "https://www.bike-mailorder.com/nl-nl/products/schwalbe-airmax-pro-digitaler-luftdruckpruefer",
+    "added": "2026-04-13",
+    "img": "https://www.bike-mailorder.com/cdn/shop/files/15165.jpg?v=1736894964&width=460"
+  },
+  {
+    "id": 107,
+    "title": "Castelli Squadra Stretch Wind Jacket",
+    "category": "clothing",
+    "priceNow": 43,
+    "priceWas": 80,
+    "store": "Mantel",
+    "storeUrl": "https://www.mantel.com/en/castelli-squadra-stretch",
+    "added": "2026-04-13",
+    "img": "https://cdn.mantel.com/images/product.php?image_id=183211&w=320&h=256"
+  },
+  {
+    "id": 108,
+    "title": "SHIMANO Ultegra CN-6701 chain",
+    "category": "parts",
+    "priceNow": 21,
+    "priceWas": 39,
+    "store": "Rose Bikes",
+    "storeUrl": "https://www.rosebikes.com/p/shimano-ultegra-cn-6701-chain-443924",
+    "added": "2026-04-13",
+    "img": "https://storage.rosebikes.com/images/p/204102_1769244485.png?im=Resize=(600%2C600);BackgroundColor=ffffff"
+  },
+  {
+    "id": 109,
+    "title": "Kalkhoff Endeavour 7 Move+ Diamond jetgrijs mat",
+    "category": "bikes",
+    "priceNow": 2699,
+    "priceWas": 4999,
+    "store": "Bikester",
+    "storeUrl": "https://www.bikester.nl/products/kalkhoff-endeavour-7-move-diamond-jetgrey-matt-2024",
+    "added": "2026-04-13",
+    "img": "https://www.bikester.nl/cdn/shop/files/208c51c512da784c8acb4774cb01acc6452e2cc8_27007736_KH0020030v2024_2024_27_DI_GRY_090_PRO_ENDEAVOUR_7_MOVE_PLUS.jpg?v=1774421287&width=460"
+  },
+  {
+    "id": 110,
+    "title": "Sportful Matchy W Cycling Jersey",
+    "category": "clothing",
+    "priceNow": 40,
+    "priceWas": 75,
+    "store": "Mantel",
+    "storeUrl": "https://www.mantel.com/en/sportful-matchy-w-jersey",
+    "added": "2026-04-13",
+    "img": "https://cdn.mantel.com/images/product.php?image_id=191279&w=320&h=256"
+  },
+  {
+    "id": 111,
+    "title": "SHIMANO Ultegra FC-6800 52 Tooth Chainring",
+    "category": "parts",
+    "priceNow": 60,
+    "priceWas": 111,
+    "store": "Rose Bikes",
+    "storeUrl": "https://www.rosebikes.com/p/shimano-ultegra-fc-6800-52-tooth-chainring-713828?size=8349&product_shape=1",
+    "added": "2026-04-13",
+    "img": "https://cdn.rosebikes.de/images/9F911085404890ED765C979F1A97A2D2.png?im=Resize=(600%2C600);BackgroundColor=ffffff"
+  },
+  {
+    "id": 112,
+    "title": "uvex QUATRO MTB Helmet",
+    "category": "accessories",
+    "priceNow": 65,
+    "priceWas": 120,
+    "store": "Rose Bikes",
+    "storeUrl": "https://www.rosebikes.com/p/uvex-quatro-mtb-helmet-2693331?size=39877987&product_shape=18085",
+    "added": "2026-04-13",
+    "img": "https://storage.rosebikes.com/images/p/157444_1769096341.png?im=Resize=(600%2C600);BackgroundColor=ffffff"
+  },
+  {
+    "id": 113,
+    "title": "FYTS SNLST Thermo Fietsshirt Lange Mouwen Donkerrood Dames",
+    "category": "clothing",
+    "priceNow": 65,
+    "priceWas": 120,
+    "store": "Futurumshop",
+    "storeUrl": "https://www.futurumshop.nl/fyts-snlst-thermo-fietsshirt-lange-mouwen-donkerrood-dames.phtml",
+    "added": "2026-04-13",
+    "img": "https://assets.futurumshop.nl/fonl/img/Products/6911-0116-001-N2509/medium/fyts-snlst-thermo-fietsshirt-lange-mouwen-donkerrood-dames-1.webp"
+  },
+  {
+    "id": 114,
+    "title": "Canyon Spectral Mullet CF 8 CLLCTV",
+    "category": "bikes",
+    "priceNow": 2499,
+    "priceWas": 4599,
+    "store": "Canyon",
+    "storeUrl": "https://www.canyon.com/en-nl/mountain-bikes/trail-bikes/spectral/cf/spectral-mullet-cf-8-cllctv/3354.html?dwvar_3354_pv_rahmenfarbe=GY",
+    "added": "2026-04-13",
+    "img": "https://www.canyon.com/dw/image/v2/BCML_PRD/on/demandware.static/-/Sites-canyon-master/default/dw4db736cc/images/full/full_2023_/2023/full_2023_3354_spectral-cf-8-cllctv_gy-gy_P5.jpg?sw=511&sh=288&sm=fit&sfrm=png&q=90&bgcolor=F2F2F2"
+  },
+  {
+    "id": 115,
+    "title": "Schijfremmen Reiniger - 750 ml",
+    "category": "tools",
+    "priceNow": 10,
+    "priceWas": 18,
+    "store": "Bike-Mailorder",
+    "storeUrl": "https://www.bike-mailorder.com/nl-nl/products/muc-off-bremsscheibenreiniger-750-ml",
+    "added": "2026-04-13",
+    "img": "https://www.bike-mailorder.com/cdn/shop/files/42158eddef67f973.jpg?v=1736887895&width=460"
+  },
+  {
+    "id": 116,
+    "title": "Rose Pinpusher Pro Chain Tool",
+    "category": "tools",
+    "priceNow": 11,
+    "priceWas": 20,
+    "store": "Rose Bikes",
+    "storeUrl": "https://www.rosebikes.com/p/rose-pinpusher-pro-chain-tool-867793?size=6075&product_shape=4681",
+    "added": "2026-04-13",
+    "img": "https://cdn.rosebikes.de/images/72B368B026450B193823C65F4D240045.png?im=Resize=(600%2C600);BackgroundColor=ffffff"
+  },
+  {
+    "id": 117,
+    "title": "Craft Core 2-Pack W Base Layer Tops",
+    "category": "clothing",
+    "priceNow": 33,
+    "priceWas": 60,
+    "store": "Mantel",
+    "storeUrl": "https://www.mantel.com/en/craft-core-2-pack-w",
+    "added": "2026-04-13",
+    "img": "https://cdn.mantel.com/images/product.php?image_id=174718&w=320&h=256"
+  },
+  {
+    "id": 118,
+    "title": "Craft Core 2-Pack Base Layer Tops",
+    "category": "clothing",
+    "priceNow": 33,
+    "priceWas": 60,
+    "store": "Mantel",
+    "storeUrl": "https://www.mantel.com/en/craft-core-2-pack",
+    "added": "2026-04-13",
+    "img": "https://cdn.mantel.com/images/product.php?image_id=169933&w=320&h=256"
+  },
+  {
+    "id": 119,
+    "title": "Kona Kahuna DL *** Blauw",
+    "category": "bikes",
+    "priceNow": 1099,
+    "priceWas": 1999,
+    "store": "Bikester",
+    "storeUrl": "https://www.bikester.nl/products/kona-kahuna-dl-blue",
+    "added": "2026-04-13",
+    "img": "https://www.bikester.nl/cdn/shop/files/386be206e906d89e30d5418374727985b39fedd2_my23_kahuna_dl.webp?v=1774569766&width=460"
+  },
+  {
+    "id": 120,
+    "title": "Assos Ego Cycling Socks",
+    "category": "clothing",
+    "priceNow": 12,
+    "priceWas": 21,
+    "store": "Mantel",
+    "storeUrl": "https://www.mantel.com/en/assos-ego-cycling-socks",
+    "added": "2026-04-13",
+    "img": "https://cdn.mantel.com/images/product.php?image_id=206944&w=320&h=256"
+  },
+  {
+    "id": 121,
+    "title": "Scott Genius 930 Midnight Teal (2024)",
+    "category": "bikes",
+    "priceNow": 2199,
+    "priceWas": 3999,
+    "store": "Bikester",
+    "storeUrl": "https://www.bikester.nl/products/scott-genius-930-2024",
+    "added": "2026-04-13",
+    "img": "https://www.bikester.nl/cdn/shop/files/05935a737c839e6e8a1284c4bb3970f26b12623d_290146.png?v=1774421022&width=460"
+  },
+  {
+    "id": 122,
+    "title": "Giro Cielo MIPS Road Bike Helmet",
+    "category": "accessories",
+    "priceNow": 110,
+    "priceWas": 200,
+    "store": "Mantel",
+    "storeUrl": "https://www.mantel.com/en/giro-cielo-mips",
+    "added": "2026-04-13",
+    "img": "https://cdn.mantel.com/images/product.php?image_id=205336&w=320&h=256"
+  },
+  {
+    "id": 123,
+    "title": "Selle Italia Selle Italia SLR Carbon saddle",
+    "category": "accessories",
+    "priceNow": 177,
+    "priceWas": 321,
+    "store": "Lordgun",
+    "storeUrl": "https://www.lordgunbicycles.co.uk/selle-italia-slr-carbon-saddle-6?color=Black",
+    "added": "2026-04-13",
+    "img": "https://d3n8mmvj9ns1ml.cloudfront.net/products/41213/bw_20260202-105702.jpg"
+  },
+  {
+    "id": 124,
+    "title": "Castelli Libera 2 Jersey",
+    "category": "clothing",
+    "priceNow": 50,
+    "priceWas": 90,
+    "store": "Mantel",
+    "storeUrl": "https://www.mantel.com/en/castelli-libera-2",
+    "added": "2026-04-13",
+    "img": "https://cdn.mantel.com/images/product.php?image_id=221727&w=320&h=256"
+  },
+  {
+    "id": 125,
+    "title": "Rapha Core Cycling Jersey",
+    "category": "clothing",
+    "priceNow": 55,
+    "priceWas": 99,
+    "store": "Mantel",
+    "storeUrl": "https://www.mantel.com/en/rapha-core-jersey",
+    "added": "2026-04-13",
+    "img": "https://cdn.mantel.com/images/product.php?image_id=247192&w=320&h=256"
+  },
+  {
+    "id": 126,
+    "title": "Scott Genius 920 Donkergrijs (2024)",
+    "category": "bikes",
+    "priceNow": 2499,
+    "priceWas": 4499,
+    "store": "Bikester",
+    "storeUrl": "https://www.bikester.nl/products/scott-genius-920-2024",
+    "added": "2026-04-13",
+    "img": "https://www.bikester.nl/cdn/shop/files/10228c7d109741856d2c1d595e75945e31962b01_290145.png?v=1774421119&width=460"
+  },
+  {
+    "id": 127,
+    "title": "Sensa Alura Cues 2025",
+    "category": "bikes",
+    "priceNow": 750,
+    "priceWas": 1350,
+    "store": "12GOBiking",
+    "storeUrl": "https://www.12gobiking.nl/sensa-alura-cues",
+    "added": "2026-04-13",
+    "img": "https://www.12gobiking.nl/m/catalog/product/s/e/sensa_alura_ltd_cues_stealth_h192025_dsc_5916_hr.jpg?q=100&t=fit"
+  },
+  {
+    "id": 128,
+    "title": "Focus Raven 8.9 2025",
+    "category": "accessories",
+    "priceNow": 2000,
+    "priceWas": 3600,
+    "store": "12GOBiking",
+    "storeUrl": "https://www.12gobiking.nl/focus-raven-8-9",
+    "added": "2026-04-13",
+    "img": "https://www.12gobiking.nl/m/catalog/product/R/a/Raven_8.9_alternatief.jpg?q=100&t=fit"
+  },
+  {
+    "id": 129,
+    "title": "Scott Spark 930 Diamant Wakame Groen",
+    "category": "bikes",
+    "priceNow": 2399,
+    "priceWas": 4299,
+    "store": "Bikester",
+    "storeUrl": "https://www.bikester.nl/products/scott-spark-930-diamant-damen-herren-wakame-green",
+    "added": "2026-04-13",
+    "img": "https://www.bikester.nl/cdn/shop/files/37a76cd702b2952a084c4085e01d660ff0dcf9ed_7bf52b7eb52c17b8.png?v=1774421019&width=460"
+  },
+  {
+    "id": 130,
+    "title": "E-bike ketting olie - 50ml",
+    "category": "tools",
+    "priceNow": 7,
+    "priceWas": 12,
+    "store": "Bike-Mailorder",
+    "storeUrl": "https://www.bike-mailorder.com/nl-nl/products/muc-off-e-bike-dry-kettenoel",
+    "added": "2026-04-13",
+    "img": "https://www.bike-mailorder.com/cdn/shop/files/Unbenannt-1hh5LaLJUM83uN.jpg?v=1736883218&width=460"
+  },
+  {
+    "id": 131,
+    "title": "Motip Kettingspray ATB Spuitbus 400ml",
+    "category": "accessories",
+    "priceNow": 9,
+    "priceWas": 16,
+    "store": "Hollandbikeshop",
+    "storeUrl": "https://hollandbikeshop.com/fietsgereedschap-fietsonderhoud/smeermiddel/ketting-vet/motip-kettingspray-atb-spuitbus-400ml/",
+    "added": "2026-04-13",
+    "img": "https://hollandbikeshop.com/img/prod/motip-kettingspray-atb-spuitbus-400ml-8711347199402-0-s.jpg"
+  },
+  {
+    "id": 132,
+    "title": "Kona 36e Big Honzo DL Rood",
+    "category": "bikes",
+    "priceNow": 849,
+    "priceWas": 1499,
+    "store": "Bikester",
+    "storeUrl": "https://www.bikester.nl/products/kona-36e-big-honzo-dl-red",
+    "added": "2026-04-13",
+    "img": "https://www.bikester.nl/cdn/shop/files/b594f0f8d54ddb5ff287fa55121e73d3a47ee1c8_my23_big_honzo_dl.webp?v=1773965240&width=460"
+  },
+  {
+    "id": 133,
+    "title": "Scott Spark 960 Cerulean Blue",
+    "category": "bikes",
+    "priceNow": 1699,
+    "priceWas": 2999,
+    "store": "Bikester",
+    "storeUrl": "https://www.bikester.nl/products/scott-spark-960-cerulean-blue",
+    "added": "2026-04-13",
+    "img": "https://www.bikester.nl/cdn/shop/files/bf4f0fc645383b0a63cb2468b69b69d129743ec8_1c8077b17511856c.png?v=1774420935&width=460"
+  },
+  {
+    "id": 134,
+    "title": "Fietsreiniger - 5 liter",
+    "category": "accessories",
+    "priceNow": 30,
+    "priceWas": 53,
+    "store": "Bike-Mailorder",
+    "storeUrl": "https://www.bike-mailorder.com/nl-nl/products/muc-off-bike-cleaner-5-liter",
+    "added": "2026-04-13",
+    "img": "https://www.bike-mailorder.com/cdn/shop/files/Web_907_-NANO_TECH_BIKE_CLEANER_5L_2021_1200x1200_3f54d2a6-bd2e-48c7-9c03-22dcb2f08aac.jpg?v=1736832296&width=460"
+  },
+  {
+    "id": 135,
+    "title": "Shimano Nexus Tandwiel 20 Tands RVS - Chroom",
+    "category": "accessories",
+    "priceNow": 4,
+    "priceWas": 7,
+    "store": "Hollandbikeshop",
+    "storeUrl": "https://hollandbikeshop.com/fietsonderdelen-stadsfiets/fiets-tandwielen/achtertandwiel-shimano-nexus/shimano-nexus-tandwiel-20-tands-rvs-chroom-570339/",
+    "added": "2026-04-13",
+    "img": "https://hollandbikeshop.com/img/prod/shimano-nexus-tandwiel-20-tands-rvs-chroom-570339-11-s.jpg"
+  },
+  {
+    "id": 136,
+    "title": "Shimano Nexus Tandwiel 22 Tands RVS - Chroom",
+    "category": "accessories",
+    "priceNow": 4,
+    "priceWas": 7,
+    "store": "Hollandbikeshop",
+    "storeUrl": "https://hollandbikeshop.com/fietsonderdelen-stadsfiets/fiets-tandwielen/achtertandwiel-shimano-nexus/shimano-nexus-tandwiel-22-tands-rvs-chroom-570338/",
+    "added": "2026-04-13",
+    "img": "https://hollandbikeshop.com/img/prod/shimano-nexus-tandwiel-22-tands-rvs-chroom-570338-11-s.jpg"
+  },
+  {
+    "id": 137,
+    "title": "Scott Spark 930 Diamant Wit",
+    "category": "bikes",
+    "priceNow": 2449,
+    "priceWas": 4299,
+    "store": "Bikester",
+    "storeUrl": "https://www.bikester.nl/products/scott-spark-930-diamant-damen-herren-white",
+    "added": "2026-04-13",
+    "img": "https://www.bikester.nl/cdn/shop/files/79228ef4700f3a0c77839b249b71114352ffdceb_dde60de826e7030c.png?v=1774421085&width=460"
+  },
+  {
+    "id": 138,
+    "title": "GripGrab Ride II Waterproof Winter Cycling Gloves",
+    "category": "clothing",
+    "priceNow": 40,
+    "priceWas": 70,
+    "store": "Mantel",
+    "storeUrl": "https://www.mantel.com/en/gripgrab-ride-ii-waterproof-winter",
+    "added": "2026-04-13",
+    "img": "https://cdn.mantel.com/images/product.php?image_id=215042&w=320&h=256"
+  },
+  {
+    "id": 139,
+    "title": "Rogelli Core Winter Jacket",
+    "category": "clothing",
+    "priceNow": 40,
+    "priceWas": 70,
+    "store": "Mantel",
+    "storeUrl": "https://www.mantel.com/en/rogelli-core-winter-jacket",
+    "added": "2026-04-13",
+    "img": "https://cdn.mantel.com/images/product.php?image_id=237420&w=320&h=256"
+  },
+  {
+    "id": 140,
+    "title": "Rose W Race Windproof Thermo Vest",
+    "category": "clothing",
+    "priceNow": 40,
+    "priceWas": 70,
+    "store": "Rose Bikes",
+    "storeUrl": "https://www.rosebikes.com/p/rose-w-race-windproof-thermo-vest-2725195",
+    "added": "2026-04-13",
+    "img": "https://cdn.rosebikes.de/images/CDE8D16153F8980B28C8AD1DDA0C2446.png?im=Resize=(600%2C600);BackgroundColor=ffffff"
+  },
+  {
+    "id": 141,
+    "title": "northwave CELSIUS R ARCTIC GTX winter road shoes",
+    "category": "clothing",
+    "priceNow": 155,
+    "priceWas": 270,
+    "store": "Rose Bikes",
+    "storeUrl": "https://www.rosebikes.com/p/northwave-celsius-r-arctic-gtx-winter-road-shoes-2689276",
+    "added": "2026-04-13",
+    "img": "https://storage.rosebikes.com/images/p/153799_1769083524.png?im=Resize=(600%2C600);BackgroundColor=ffffff"
+  },
+  {
+    "id": 142,
+    "title": "Scott Contessa Spark 920 Regenwoudgroen",
+    "category": "bikes",
+    "priceNow": 2199,
+    "priceWas": 3799,
+    "store": "Bikester",
+    "storeUrl": "https://www.bikester.nl/products/scott-contessa-spark-920-rainforest-green",
+    "added": "2026-04-13",
+    "img": "https://www.bikester.nl/cdn/shop/files/d72a7cb77ce16b524e4aa4ec6556c77109e0c649_3b34cc42235781d3.png?v=1774420769&width=460"
+  },
+  {
+    "id": 143,
+    "title": "Reisenthel BIKEBASKET Handlebar Bag with KLICKfix Mount",
+    "category": "accessories",
+    "priceNow": 45,
+    "priceWas": 78,
+    "store": "Rose Bikes",
+    "storeUrl": "https://www.rosebikes.com/p/reisenthel-bikebasket-handlebar-bag-with-klickfix-mount-257279",
+    "added": "2026-04-13",
+    "img": "https://cdn.rosebikes.de/images/11105D381F47F01E01DDE779AFD0D3D3.png?im=Resize=(600%2C600);BackgroundColor=ffffff"
+  },
+  {
+    "id": 144,
+    "title": "VAUDE WOMEN'S DROP JACKET III Rain Jacket",
+    "category": "clothing",
+    "priceNow": 70,
+    "priceWas": 120,
+    "store": "Rose Bikes",
+    "storeUrl": "https://www.rosebikes.com/p/vaude-womens-drop-jacket-iii-rain-jacket-686447",
+    "added": "2026-04-13",
+    "img": "https://cdn.rosebikes.de/images/143F6644E8940597A44C892A0D80CB53.png?im=Resize=(600%2C600);BackgroundColor=ffffff"
+  },
+  {
+    "id": 145,
+    "title": "Castelli Espresso W Cycling Jersey",
+    "category": "clothing",
+    "priceNow": 70,
+    "priceWas": 120,
+    "store": "Mantel",
+    "storeUrl": "https://www.mantel.com/en/castelli-espresso-w-cycling-jersey",
+    "added": "2026-04-13",
+    "img": "https://cdn.mantel.com/images/product.php?image_id=222189&w=320&h=256"
+  },
+  {
+    "id": 146,
+    "title": "GOREWEAR LUPRA 2.0 GORE-TEX Women’s Rain Jacket",
+    "category": "clothing",
+    "priceNow": 175,
+    "priceWas": 300,
+    "store": "Rose Bikes",
+    "storeUrl": "https://www.rosebikes.com/p/gorewear-lupra-20-gore-tex-womens-rain-jacket-2726528",
+    "added": "2026-04-13",
+    "img": "https://cdn.rosebikes.de/images/8A21039C130D6B88F70434BCD0F4832D.png?im=Resize=(600%2C600);BackgroundColor=ffffff"
+  },
+  {
+    "id": 147,
+    "title": "Kona Dew-E blauw",
+    "category": "bikes",
+    "priceNow": 1579,
+    "priceWas": 2699,
+    "store": "Bikester",
+    "storeUrl": "https://www.bikester.nl/products/kona-dew-e-blue",
+    "added": "2026-04-13",
+    "img": "https://www.bikester.nl/cdn/shop/files/0e826982f4f2ed597b45d5bf785b58368d3fb919_2k25_dew_e_1.webp?v=1774421237&width=460"
+  },
+  {
+    "id": 148,
+    "title": "Vet SRAM boter",
+    "category": "accessories",
+    "priceNow": 8,
+    "priceWas": 14,
+    "store": "Bike-Mailorder",
+    "storeUrl": "https://www.bike-mailorder.com/nl-nl/products/sram-schmierfett-sram-butter",
+    "added": "2026-04-13",
+    "img": "https://www.bike-mailorder.com/cdn/shop/files/greasesrambutter1oz.jpg?v=1736904124&width=460"
+  },
+  {
+    "id": 149,
+    "title": "Aandrijflijn Reiniger",
+    "category": "tools",
+    "priceNow": 14,
+    "priceWas": 23,
+    "store": "Bike-Mailorder",
+    "storeUrl": "https://www.bike-mailorder.com/nl-nl/products/muc-off-drivetrain-cleaner",
+    "added": "2026-04-13",
+    "img": "https://www.bike-mailorder.com/cdn/shop/files/Reiniger-750-ml.jpg?v=1736820025&width=460"
+  },
+  {
+    "id": 150,
+    "title": "8 in 1 reinigingsset met emmer",
+    "category": "accessories",
+    "priceNow": 38,
+    "priceWas": 64,
+    "store": "Bike-Mailorder",
+    "storeUrl": "https://www.bike-mailorder.com/nl-nl/products/muc-off-8-in-1-fahrrad-reinigung-kit",
+    "added": "2026-04-13",
+    "img": "https://www.bike-mailorder.com/cdn/shop/files/Nicht-benanntoJ7FiGVQgwjBp.jpg?v=1736853852&width=460"
   }
 ];
